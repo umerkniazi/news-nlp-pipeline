@@ -10,12 +10,12 @@ class NetworkAnalyzer:
         self.top_n_entities = top_n_entities
 
     def generate_network(self, df: pd.DataFrame, entity_column: str = 'extracted_entities') -> dict:
-        all_entities = [ent for sublist in df[entity_column] for ent in sublist]
+        all_entities = [ent for sublist in df[entity_column].dropna() for ent in sublist]
         entity_counts = Counter(all_entities)
         top_entities = [ent for ent, count in entity_counts.most_common(self.top_n_entities)]
         
         edges = []
-        for entities in df[entity_column]:
+        for entities in df[entity_column].dropna():
             filtered = list(set([e for e in entities if e in top_entities]))
             if len(filtered) > 1:
                 edges.extend(list(combinations(sorted(filtered), 2)))

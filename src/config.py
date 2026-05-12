@@ -24,3 +24,15 @@ NUM_TOPICS = 10
 LDA_PASSES = 50
 RANDOM_SEED = 42
 SAMPLE_SIZE = 5000
+
+NER_OVERRIDES = {
+    "brexit": "EVENT",
+    "t20": "EVENT",
+    "psl": "EVENT",
+    "kurram": "GPE",
+    "kpk": "GPE",
+    "sri lanka": "GPE",
+    "sri_lanka": "GPE",
+    "covid": "EVENT",
+    "twitter": "ORG"
+}

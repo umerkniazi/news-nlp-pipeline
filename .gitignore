@@ -21,7 +21,10 @@ ENV/
 .env
 .env.*
 
-data/
+data/*
+
+!data/
+!data/topic_mappings.json
 
 dist/
 build/

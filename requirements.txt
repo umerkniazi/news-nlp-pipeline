@@ -12,3 +12,4 @@ matplotlib
 seaborn
 wordcloud
 nbformat
+tqdm
