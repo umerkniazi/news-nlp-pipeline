@@ -1,0 +1,14 @@
+pandas
+spacy
+nltk
+gensim
+pyarrow
+networkx
+streamlit
+plotly
+pyldavis
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+nbformat
