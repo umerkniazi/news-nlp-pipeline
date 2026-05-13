@@ -21,10 +21,8 @@ ENV/
 .env
 .env.*
 
-data/*
-
-!data/
-!data/topic_mappings.json
+data/**/*.csv
+data/**/*.parquet
 
 dist/
 build/
