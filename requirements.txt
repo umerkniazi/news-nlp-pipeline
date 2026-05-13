@@ -13,3 +13,4 @@ seaborn
 wordcloud
 nbformat
 tqdm
+pyvis
