@@ -6,7 +6,7 @@ An end-to-end NLP pipeline designed to process ~350,000 news headlines from Dawn
 ## Tech Stack
 - **Data:** pandas, pyarrow (Parquet)
 - **NLP:** spaCy (NER), NLTK (VADER Sentiment)
-- **Modeling:** Gensim (LDA Topic Modeling)
+- **Modeling:** BERTopic, sentence-transformers (Topic Modeling)
 - **Dashboard:** Streamlit, Plotly, PyVis
 
 ## Key Outputs

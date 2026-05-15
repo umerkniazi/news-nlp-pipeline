@@ -1,105 +1,158 @@
-import pandas as pd
-import gensim
+import gc
 import json
-from gensim import corpora
-from gensim.models import Phrases
-from gensim.models.phrases import Phraser
-from gensim.utils import simple_preprocess
-from gensim.parsing.preprocessing import STOPWORDS
 from pathlib import Path
 
+import numpy as np
+import pandas as pd
+from bertopic import BERTopic
+from sentence_transformers import SentenceTransformer
+from sklearn.cluster import MiniBatchKMeans
+from sklearn.feature_extraction.text import CountVectorizer
+from umap import UMAP
+
 from src.config import (
-    NUM_TOPICS, 
-    LDA_PASSES, 
-    RANDOM_SEED, 
-    LDA_MODEL_FILE, 
-    DICTIONARY_FILE,
-    DATA_DIR,
-    TOPIC_MAPPING_FILE
+    NUM_TOPICS,
+    RANDOM_SEED,
+    LDA_MODEL_FILE,
+    TOPIC_MAPPING_FILE,
 )
 
-class TopicModeler:
-    def __init__(self, num_topics: int = NUM_TOPICS, passes: int = LDA_PASSES):
-        self.num_topics = num_topics
-        self.passes = passes
-        self.dictionary = None
-        self.lda_model = None
+BERTOPIC_MODEL_FILE = LDA_MODEL_FILE.parent / "bertopic_model"
 
-    def preprocess_text(self, texts: list[str]) -> list[list[str]]:
-        custom_stops = STOPWORDS.union({
-            'says', 'said', 'new', 'year', 'today', 'bn', 'rs', 'day', 'week', 
-            'make', 'makes', 'want', 'wants', 'take', 'takes', 'according', 'set',
-            'told', 'asked', 'report', 'reports', 'man', 'woman', 'people'
-        })
-        
-        tokenized = [simple_preprocess(str(text), deacc=True) for text in texts]
-        
-        phrases = Phrases(tokenized, min_count=5, threshold=10)
-        bigram_model = Phraser(phrases)
-        
-        processed = []
-        for doc in bigram_model[tokenized]:
-            filtered = [t for t in doc if t not in custom_stops and len(t) > 2]
-            processed.append(filtered)
-        return processed
+
+class TopicModeler:
+    def __init__(self, num_topics: int = NUM_TOPICS):
+        self.num_topics = num_topics
+        self.model = None
+        self.embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
     def fit(self, texts: list[str]) -> None:
-        processed_docs = self.preprocess_text(texts)
-        self.dictionary = corpora.Dictionary(processed_docs)
-        self.dictionary.filter_extremes(no_below=5, no_above=0.3)
-        
-        corpus = [self.dictionary.doc2bow(doc) for doc in processed_docs]
-        
-        self.lda_model = gensim.models.LdaMulticore(
-            corpus=corpus,
-            id2word=self.dictionary,
-            num_topics=self.num_topics,
-            random_state=RANDOM_SEED,
-            passes=self.passes,
-            workers=2,
-            alpha='symmetric',
-            eta='auto'
+        vectorizer = CountVectorizer(
+            stop_words="english",
+            min_df=2,
+            ngram_range=(1, 2),
         )
 
-    def assign_topics(self, df: pd.DataFrame, text_column: str = 'headline') -> pd.DataFrame:
-        if getattr(self, 'lda_model', None) is None:
+        umap_model = UMAP(
+            n_neighbors=10,
+            n_components=3,
+            min_dist=0.0,
+            metric="cosine",
+            random_state=RANDOM_SEED,
+        )
+
+        cluster_model = MiniBatchKMeans(
+            n_clusters=self.num_topics,
+            batch_size=1024,
+            random_state=RANDOM_SEED,
+            n_init="auto",
+        )
+
+        self.model = BERTopic(
+            embedding_model=self.embedding_model,
+            umap_model=umap_model,
+            hdbscan_model=cluster_model,
+            vectorizer_model=vectorizer,
+            calculate_probabilities=False,
+            verbose=True,
+            language="english",
+        )
+
+        print("Computing embeddings...")
+
+        embeddings = self.embedding_model.encode(
+            texts,
+            show_progress_bar=True,
+            batch_size=16,
+        ).astype(np.float32)
+
+        print("Fitting BERTopic...")
+
+        self.model.fit(texts, embeddings=embeddings)
+
+        del embeddings
+        gc.collect()
+
+    def assign_topics(
+        self,
+        df: pd.DataFrame,
+        text_column: str = "headline",
+    ) -> pd.DataFrame:
+        if self.model is None:
             raise ValueError("Model not trained.")
-            
-        processed_docs = self.preprocess_text(df[text_column].tolist())
-        corpus = [self.dictionary.doc2bow(doc) for doc in processed_docs]
-        
-        topics = []
-        for bow in corpus:
-            dist = self.lda_model.get_document_topics(bow)
-            dominant_topic = max(dist, key=lambda x: x[1])[0] if dist else -1
-            topics.append(dominant_topic)
-            
+
+        topics, _ = self.model.transform(df[text_column].tolist())
+
         df_out = df.copy()
-        df_out['dominant_topic'] = topics
+        df_out["dominant_topic"] = topics
+
         return df_out
 
-    def assign_topic_labels(self, df: pd.DataFrame, mapping_path: Path = TOPIC_MAPPING_FILE) -> pd.DataFrame:
+    def assign_topic_labels(
+        self,
+        df: pd.DataFrame,
+        mapping_path: Path = TOPIC_MAPPING_FILE,
+    ) -> pd.DataFrame:
         try:
-            with open(mapping_path, 'r') as f:
+            with open(mapping_path, "r") as f:
                 mapping = json.load(f)
+
             mapping = {int(k): v for k, v in mapping.items()}
-            df['topic_name'] = df['dominant_topic'].map(mapping).fillna("General News")
+
+            df["topic_name"] = (
+                df["dominant_topic"]
+                .map(mapping)
+                .fillna("General News")
+            )
+
         except FileNotFoundError:
             print(f"File NOT found at {mapping_path.resolve()}")
-            df['topic_name'] = "Mapping Missing"
+            df["topic_name"] = "Mapping Missing"
+
         return df
 
     def get_topic_descriptors(self, num_words: int = 15) -> dict:
-        if self.lda_model is None:
+        if self.model is None:
             raise ValueError("Model not trained.")
-        return {i: [w for w, p in self.lda_model.show_topic(i, topn=num_words)] 
-                for i in range(self.num_topics)}
 
-    def save_model(self, m_path: Path = LDA_MODEL_FILE, d_path: Path = DICTIONARY_FILE) -> None:
+        descriptors = {}
+
+        for topic_id in self.model.get_topics():
+            if topic_id == -1:
+                continue
+
+            words = [
+                word
+                for word, _ in self.model.get_topic(topic_id)[:num_words]
+            ]
+
+            descriptors[topic_id] = words
+
+        return descriptors
+
+    def save_model(
+        self,
+        m_path: Path = BERTOPIC_MODEL_FILE,
+        **kwargs,
+    ) -> None:
         m_path.parent.mkdir(parents=True, exist_ok=True)
-        self.lda_model.save(str(m_path))
-        self.dictionary.save(str(d_path))
 
-    def load_model(self, m_path: Path = LDA_MODEL_FILE, d_path: Path = DICTIONARY_FILE) -> None:
-        self.lda_model = gensim.models.LdaMulticore.load(str(m_path))
-        self.dictionary = corpora.Dictionary.load(str(d_path))
+        self.model.save(
+            str(m_path),
+            serialization="safetensors",
+            save_embedding_model=False,
+        )
+
+        print(f"Model saved to {m_path}")
+
+    def load_model(
+        self,
+        m_path: Path = BERTOPIC_MODEL_FILE,
+        **kwargs,
+    ) -> None:
+        self.model = BERTopic.load(
+            str(m_path),
+            embedding_model=self.embedding_model,
+        )
+
+        print(f"Model loaded from {m_path}")

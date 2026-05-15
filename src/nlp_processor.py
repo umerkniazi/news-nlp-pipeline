@@ -28,7 +28,7 @@ class NLPProcessor:
         texts = df[text_column].fillna("").astype(str).tolist()
         entities_list = []
         
-        for doc in tqdm(self.nlp.pipe(texts, batch_size=batch_size), total=len(texts), desc="Extracting Entities"):
+        for doc in tqdm(self.nlp.pipe(texts, batch_size=batch_size, n_process=-1), total=len(texts), desc="Extracting Entities"):
             row_ents = set()
             for ent in doc.ents:
                 ent_text = ent.text.strip()
