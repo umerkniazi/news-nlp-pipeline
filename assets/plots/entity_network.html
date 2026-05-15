@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "white"}, "id": "India", "label": "India", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Pakistan", "label": "Pakistan", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "US", "label": "US", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "China", "label": "China", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Iran", "label": "Iran", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Afghanistan", "label": "Afghanistan", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Trump", "label": "Trump", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Gaza", "label": "Gaza", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Israel", "label": "Israel", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Russia", "label": "Russia", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Taliban", "label": "Taliban", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Australia", "label": "Australia", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "England", "label": "England", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ECP", "label": "ECP", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "PTI", "label": "PTI", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "UN", "label": "UN", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Ukraine", "label": "Ukraine", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Sri Lanka", "label": "Sri Lanka", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "IMF", "label": "IMF", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "PML-N", "label": "PML-N", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Imran", "label": "Imran", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "New Zealand", "label": "New Zealand", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Bangladesh", "label": "Bangladesh", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Syria", "label": "Syria", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "South Africa", "label": "South Africa", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "PPP", "label": "PPP", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Modi", "label": "Modi", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "KP", "label": "KP", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "SC", "label": "SC", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "UK", "label": "UK", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "NAB", "label": "NAB", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ODI", "label": "ODI", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "NA", "label": "NA", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Iraq", "label": "Iraq", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Karachi", "label": "Karachi", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Sindh", "label": "Sindh", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Islamabad", "label": "Islamabad", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Nato", "label": "Nato", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Kabul", "label": "Kabul", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Senate", "label": "Senate", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Putin", "label": "Putin", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Turkey", "label": "Turkey", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Obama", "label": "Obama", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Rangers", "label": "Rangers", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "PCB", "label": "PCB", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "West Indies", "label": "West Indies", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "IHC", "label": "IHC", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "EU", "label": "EU", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Biden", "label": "Biden", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "PML", "label": "PML", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Balochistan", "label": "Balochistan", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Saudi Arabia", "label": "Saudi Arabia", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Yemen", "label": "Yemen", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "UAE", "label": "UAE", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "CPEC", "label": "CPEC", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Lahore", "label": "Lahore", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Zardari", "label": "Zardari", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "ISPR", "label": "ISPR", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "CJP", "label": "CJP", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "TTP", "label": "TTP", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Britain", "label": "Britain", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "JI", "label": "JI", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Bilawal", "label": "Bilawal", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Japan", "label": "Japan", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "SHC", "label": "SHC", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "CM", "label": "CM", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Qureshi", "label": "Qureshi", "shape": "dot"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "Khan", "label": "Khan", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"from": "India", "to": "Pakistan", "value": 2336}, {"from": "Pakistan", "to": "US", "value": 2092}, {"from": "China", "to": "US", "value": 813}, {"from": "Iran", "to": "US", "value": 772}, {"from": "Afghanistan", "to": "Pakistan", "value": 706}, {"from": "India", "to": "US", "value": 594}, {"from": "Afghanistan", "to": "US", "value": 566}, {"from": "China", "to": "Pakistan", "value": 517}, {"from": "Trump", "to": "US", "value": 466}, {"from": "China", "to": "India", "value": 396}, {"from": "Gaza", "to": "Israel", "value": 389}, {"from": "Russia", "to": "US", "value": 380}, {"from": "Taliban", "to": "US", "value": 371}, {"from": "Iran", "to": "Pakistan", "value": 342}, {"from": "Australia", "to": "Pakistan", "value": 342}, {"from": "England", "to": "Pakistan", "value": 320}, {"from": "ECP", "to": "PTI", "value": 316}, {"from": "Pakistan", "to": "UN", "value": 315}, {"from": "Russia", "to": "Ukraine", "value": 313}, {"from": "Afghanistan", "to": "Taliban", "value": 305}, {"from": "Pakistan", "to": "Sri Lanka", "value": 303}, {"from": "IMF", "to": "Pakistan", "value": 294}, {"from": "PML-N", "to": "PTI", "value": 281}, {"from": "Imran", "to": "PTI", "value": 281}, {"from": "New Zealand", "to": "Pakistan", "value": 259}, {"from": "Bangladesh", "to": "Pakistan", "value": 257}, {"from": "Syria", "to": "US", "value": 255}, {"from": "Pakistan", "to": "South Africa", "value": 231}, {"from": "PPP", "to": "PTI", "value": 217}, {"from": "Australia", "to": "India", "value": 216}, {"from": "Israel", "to": "US", "value": 211}, {"from": "Pakistan", "to": "Taliban", "value": 206}, {"from": "PML-N", "to": "PPP", "value": 194}, {"from": "Iran", "to": "Israel", "value": 193}, {"from": "UN", "to": "US", "value": 191}, {"from": "England", "to": "India", "value": 189}, {"from": "India", "to": "Modi", "value": 186}, {"from": "KP", "to": "PTI", "value": 182}, {"from": "Syria", "to": "UN", "value": 177}, {"from": "PTI", "to": "SC", "value": 177}, {"from": "Pakistan", "to": "UK", "value": 174}, {"from": "NAB", "to": "SC", "value": 166}, {"from": "ODI", "to": "Pakistan", "value": 164}, {"from": "NA", "to": "PTI", "value": 158}, {"from": "Russia", "to": "Syria", "value": 157}, {"from": "Iraq", "to": "US", "value": 153}, {"from": "Karachi", "to": "Sindh", "value": 153}, {"from": "Islamabad", "to": "PTI", "value": 152}, {"from": "Afghanistan", "to": "Nato", "value": 150}, {"from": "Kabul", "to": "Taliban", "value": 150}, {"from": "Karachi", "to": "PTI", "value": 149}, {"from": "China", "to": "Russia", "value": 144}, {"from": "Australia", "to": "England", "value": 140}, {"from": "PTI", "to": "Senate", "value": 139}, {"from": "Bangladesh", "to": "India", "value": 138}, {"from": "Putin", "to": "Russia", "value": 134}, {"from": "Syria", "to": "Turkey", "value": 134}, {"from": "Pakistan", "to": "Russia", "value": 132}, {"from": "US", "to": "Ukraine", "value": 132}, {"from": "Iran", "to": "UN", "value": 131}, {"from": "Obama", "to": "US", "value": 129}, {"from": "Karachi", "to": "Rangers", "value": 129}, {"from": "PCB", "to": "Pakistan", "value": 127}, {"from": "Kabul", "to": "Pakistan", "value": 127}, {"from": "Pakistan", "to": "West Indies", "value": 125}, {"from": "IHC", "to": "Imran", "value": 121}, {"from": "EU", "to": "Pakistan", "value": 120}, {"from": "India", "to": "Sri Lanka", "value": 120}, {"from": "Gaza", "to": "UN", "value": 118}, {"from": "India", "to": "UN", "value": 116}, {"from": "Biden", "to": "US", "value": 115}, {"from": "Israel", "to": "UN", "value": 114}, {"from": "China", "to": "Trump", "value": 110}, {"from": "PML", "to": "PTI", "value": 109}, {"from": "Iran", "to": "Syria", "value": 108}, {"from": "Balochistan", "to": "Sindh", "value": 107}, {"from": "Pakistan", "to": "Saudi Arabia", "value": 106}, {"from": "US", "to": "Yemen", "value": 105}, {"from": "Turkey", "to": "US", "value": 105}, {"from": "Karachi", "to": "SC", "value": 104}, {"from": "PPP", "to": "Sindh", "value": 103}, {"from": "Nato", "to": "Pakistan", "value": 102}, {"from": "India", "to": "South Africa", "value": 101}, {"from": "Afghanistan", "to": "India", "value": 100}, {"from": "IHC", "to": "PTI", "value": 99}, {"from": "ECP", "to": "SC", "value": 98}, {"from": "Iran", "to": "Trump", "value": 95}, {"from": "Kabul", "to": "US", "value": 92}, {"from": "Imran", "to": "SC", "value": 92}, {"from": "Putin", "to": "Ukraine", "value": 90}, {"from": "Pakistan", "to": "UAE", "value": 89}, {"from": "SC", "to": "Sindh", "value": 88}, {"from": "Gaza", "to": "US", "value": 88}, {"from": "UN", "to": "Yemen", "value": 87}, {"from": "IHC", "to": "SC", "value": 87}, {"from": "ECP", "to": "Imran", "value": 87}, {"from": "India", "to": "Trump", "value": 87}, {"from": "UK", "to": "US", "value": 86}, {"from": "CPEC", "to": "China", "value": 85}, {"from": "Balochistan", "to": "KP", "value": 84}, {"from": "India", "to": "New Zealand", "value": 83}, {"from": "Iran", "to": "Russia", "value": 82}, {"from": "PTI", "to": "Sindh", "value": 82}, {"from": "Australia", "to": "Sri Lanka", "value": 81}, {"from": "Nato", "to": "US", "value": 81}, {"from": "PPP", "to": "Senate", "value": 81}, {"from": "CPEC", "to": "Pakistan", "value": 81}, {"from": "Pakistan", "to": "Trump", "value": 81}, {"from": "Karachi", "to": "PPP", "value": 80}, {"from": "Lahore", "to": "PTI", "value": 80}, {"from": "EU", "to": "US", "value": 79}, {"from": "Iran", "to": "Saudi Arabia", "value": 78}, {"from": "Afghanistan", "to": "UN", "value": 77}, {"from": "PPP", "to": "Zardari", "value": 77}, {"from": "ISPR", "to": "KP", "value": 75}, {"from": "China", "to": "Iran", "value": 71}, {"from": "England", "to": "New Zealand", "value": 71}, {"from": "India", "to": "Iran", "value": 70}, {"from": "Islamabad", "to": "US", "value": 70}, {"from": "CJP", "to": "SC", "value": 70}, {"from": "EU", "to": "UK", "value": 69}, {"from": "Pakistan", "to": "TTP", "value": 68}, {"from": "India", "to": "ODI", "value": 68}, {"from": "NA", "to": "Senate", "value": 68}, {"from": "Karachi", "to": "Pakistan", "value": 68}, {"from": "Balochistan", "to": "SC", "value": 68}, {"from": "Pakistan", "to": "Turkey", "value": 66}, {"from": "India", "to": "Russia", "value": 66}, {"from": "Iran", "to": "Iraq", "value": 66}, {"from": "Australia", "to": "ODI", "value": 65}, {"from": "Taliban", "to": "UN", "value": 65}, {"from": "Britain", "to": "EU", "value": 65}, {"from": "JI", "to": "PTI", "value": 65}, {"from": "Bilawal", "to": "PPP", "value": 65}, {"from": "Imran", "to": "Pakistan", "value": 64}, {"from": "Obama", "to": "Pakistan", "value": 63}, {"from": "China", "to": "Japan", "value": 63}, {"from": "Biden", "to": "Trump", "value": 63}, {"from": "Saudi Arabia", "to": "US", "value": 62}, {"from": "Japan", "to": "US", "value": 62}, {"from": "JI", "to": "Karachi", "value": 62}, {"from": "Modi", "to": "Pakistan", "value": 62}, {"from": "SHC", "to": "Sindh", "value": 61}, {"from": "Balochistan", "to": "CM", "value": 61}, {"from": "Russia", "to": "Trump", "value": 61}, {"from": "Pakistan", "to": "Zardari", "value": 60}, {"from": "China", "to": "UN", "value": 60}, {"from": "Pakistan", "to": "Qureshi", "value": 59}, {"from": "England", "to": "Sri Lanka", "value": 59}, {"from": "Putin", "to": "US", "value": 59}, {"from": "PTI", "to": "Pakistan", "value": 59}, {"from": "Balochistan", "to": "ISPR", "value": 58}, {"from": "Islamabad", "to": "Kabul", "value": 57}, {"from": "ISPR", "to": "Pakistan", "value": 56}, {"from": "Khan", "to": "Pakistan", "value": 56}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.2,
+            "damping": 0.09,
+            "nodeDistance": 150,
+            "springConstant": 0.05,
+            "springLength": 200
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

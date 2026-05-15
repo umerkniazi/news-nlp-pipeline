@@ -4,923 +4,4223 @@
             "id": "Pakistan (GPE)",
             "name": "Pakistan",
             "group": "GPE",
-            "value": 333
+            "value": 25969
         },
         {
             "id": "US (GPE)",
             "name": "US",
             "group": "GPE",
-            "value": 197
+            "value": 14116
         },
         {
             "id": "India (GPE)",
             "name": "India",
             "group": "GPE",
-            "value": 145
+            "value": 11751
         },
         {
             "id": "PTI (ORG)",
             "name": "PTI",
             "group": "ORG",
-            "value": 103
-        },
-        {
-            "id": "SC (ORG)",
-            "name": "SC",
-            "group": "ORG",
-            "value": 72
+            "value": 6584
         },
         {
             "id": "China (GPE)",
             "name": "China",
             "group": "GPE",
-            "value": 69
+            "value": 5081
+        },
+        {
+            "id": "SC (ORG)",
+            "name": "SC",
+            "group": "ORG",
+            "value": 4810
         },
         {
             "id": "Karachi (ORG)",
             "name": "Karachi",
             "group": "ORG",
-            "value": 60
+            "value": 4203
         },
         {
             "id": "Iran (GPE)",
             "name": "Iran",
             "group": "GPE",
-            "value": 56
-        },
-        {
-            "id": "Karachi (GPE)",
-            "name": "Karachi",
-            "group": "GPE",
-            "value": 54
-        },
-        {
-            "id": "Afghanistan (GPE)",
-            "name": "Afghanistan",
-            "group": "GPE",
-            "value": 49
+            "value": 4135
         },
         {
             "id": "KP (GPE)",
             "name": "KP",
             "group": "GPE",
-            "value": 46
+            "value": 4057
         },
         {
             "id": "Sindh (GPE)",
             "name": "Sindh",
             "group": "GPE",
-            "value": 46
+            "value": 3481
         },
         {
-            "id": "Islamabad (GPE)",
-            "name": "Islamabad",
+            "id": "Karachi (GPE)",
+            "name": "Karachi",
             "group": "GPE",
-            "value": 41
+            "value": 3415
+        },
+        {
+            "id": "Afghanistan (GPE)",
+            "name": "Afghanistan",
+            "group": "GPE",
+            "value": 3363
         },
         {
             "id": "UN (ORG)",
             "name": "UN",
             "group": "ORG",
-            "value": 38
+            "value": 3282
         },
         {
-            "id": "Taliban (ORG)",
-            "name": "Taliban",
-            "group": "ORG",
-            "value": 34
-        },
-        {
-            "id": "Israel (GPE)",
-            "name": "Israel",
+            "id": "Islamabad (GPE)",
+            "name": "Islamabad",
             "group": "GPE",
-            "value": 33
-        },
-        {
-            "id": "Bangladesh (GPE)",
-            "name": "Bangladesh",
-            "group": "GPE",
-            "value": 32
-        },
-        {
-            "id": "Syria (GPE)",
-            "name": "Syria",
-            "group": "GPE",
-            "value": 32
-        },
-        {
-            "id": "ECP (ORG)",
-            "name": "ECP",
-            "group": "ORG",
-            "value": 31
+            "value": 3120
         },
         {
             "id": "Senate (ORG)",
             "name": "Senate",
             "group": "ORG",
-            "value": 31
+            "value": 2417
         },
         {
-            "id": "NAB (ORG)",
-            "name": "NAB",
+            "id": "Taliban (ORG)",
+            "name": "Taliban",
             "group": "ORG",
-            "value": 30
-        },
-        {
-            "id": "PPP (ORG)",
-            "name": "PPP",
-            "group": "ORG",
-            "value": 29
+            "value": 2389
         },
         {
             "id": "Australia (GPE)",
             "name": "Australia",
             "group": "GPE",
-            "value": 29
+            "value": 2261
         },
         {
-            "id": "IMF (ORG)",
-            "name": "IMF",
-            "group": "ORG",
-            "value": 28
-        },
-        {
-            "id": "England (GPE)",
-            "name": "England",
+            "id": "Israel (GPE)",
+            "name": "Israel",
             "group": "GPE",
-            "value": 28
+            "value": 2170
         },
         {
             "id": "Balochistan (ORG)",
             "name": "Balochistan",
             "group": "ORG",
-            "value": 27
+            "value": 2150
         },
         {
-            "id": "Trump (ORG)",
-            "name": "Trump",
-            "group": "ORG",
-            "value": 27
-        },
-        {
-            "id": "Russia (GPE)",
-            "name": "Russia",
+            "id": "England (GPE)",
+            "name": "England",
             "group": "GPE",
-            "value": 27
+            "value": 2147
+        },
+        {
+            "id": "PPP (ORG)",
+            "name": "PPP",
+            "group": "ORG",
+            "value": 2136
         },
         {
             "id": "UK (GPE)",
             "name": "UK",
             "group": "GPE",
-            "value": 26
+            "value": 2108
+        },
+        {
+            "id": "Russia (GPE)",
+            "name": "Russia",
+            "group": "GPE",
+            "value": 2104
         },
         {
             "id": "Imran (ORG)",
             "name": "Imran",
             "group": "ORG",
-            "value": 25
+            "value": 2101
+        },
+        {
+            "id": "ECP (ORG)",
+            "name": "ECP",
+            "group": "ORG",
+            "value": 2098
+        },
+        {
+            "id": "Bangladesh (GPE)",
+            "name": "Bangladesh",
+            "group": "GPE",
+            "value": 2087
+        },
+        {
+            "id": "Syria (GPE)",
+            "name": "Syria",
+            "group": "GPE",
+            "value": 1993
+        },
+        {
+            "id": "Trump (ORG)",
+            "name": "Trump",
+            "group": "ORG",
+            "value": 1971
         },
         {
             "id": "NA (ORG)",
             "name": "NA",
             "group": "ORG",
-            "value": 25
-        },
-        {
-            "id": "PML-N (ORG)",
-            "name": "PML-N",
-            "group": "ORG",
-            "value": 25
-        },
-        {
-            "id": "Lahore (GPE)",
-            "name": "Lahore",
-            "group": "GPE",
-            "value": 24
-        },
-        {
-            "id": "Balochistan (GPE)",
-            "name": "Balochistan",
-            "group": "GPE",
-            "value": 23
+            "value": 1894
         },
         {
             "id": "IHC (ORG)",
             "name": "IHC",
             "group": "ORG",
-            "value": 22
+            "value": 1779
         },
         {
-            "id": "EU (ORG)",
-            "name": "EU",
+            "id": "PML-N (ORG)",
+            "name": "PML-N",
             "group": "ORG",
-            "value": 21
+            "value": 1756
         },
         {
-            "id": "Turkey (GPE)",
-            "name": "Turkey",
-            "group": "GPE",
-            "value": 20
+            "id": "NAB (ORG)",
+            "name": "NAB",
+            "group": "ORG",
+            "value": 1693
         },
         {
             "id": "Gaza (GPE)",
             "name": "Gaza",
             "group": "GPE",
-            "value": 19
+            "value": 1625
         },
         {
-            "id": "New Zealand (GPE)",
-            "name": "New Zealand",
+            "id": "Balochistan (GPE)",
+            "name": "Balochistan",
             "group": "GPE",
-            "value": 19
+            "value": 1583
         },
         {
             "id": "PCB (ORG)",
             "name": "PCB",
             "group": "ORG",
-            "value": 19
-        },
-        {
-            "id": "SHC (ORG)",
-            "name": "SHC",
-            "group": "ORG",
-            "value": 18
-        },
-        {
-            "id": "Saudi Arabia (GPE)",
-            "name": "Saudi Arabia",
-            "group": "GPE",
-            "value": 18
-        },
-        {
-            "id": "Khan (PERSON)",
-            "name": "Khan",
-            "group": "PERSON",
-            "value": 18
-        },
-        {
-            "id": "Yemen (GPE)",
-            "name": "Yemen",
-            "group": "GPE",
-            "value": 18
+            "value": 1576
         },
         {
             "id": "Sri Lanka (GPE)",
             "name": "Sri Lanka",
             "group": "GPE",
-            "value": 17
+            "value": 1563
         },
         {
-            "id": "Nato (ORG)",
-            "name": "Nato",
-            "group": "ORG",
-            "value": 17
-        },
-        {
-            "id": "Kabul (GPE)",
-            "name": "Kabul",
+            "id": "Lahore (GPE)",
+            "name": "Lahore",
             "group": "GPE",
-            "value": 16
+            "value": 1556
         },
         {
-            "id": "PML (ORG)",
-            "name": "PML",
+            "id": "IMF (ORG)",
+            "name": "IMF",
             "group": "ORG",
-            "value": 16
+            "value": 1441
         },
         {
-            "id": "AJK (ORG)",
-            "name": "AJK",
+            "id": "EU (ORG)",
+            "name": "EU",
             "group": "ORG",
-            "value": 16
+            "value": 1325
         },
         {
             "id": "Zardari (PERSON)",
             "name": "Zardari",
             "group": "PERSON",
-            "value": 14
+            "value": 1266
+        },
+        {
+            "id": "Turkey (GPE)",
+            "name": "Turkey",
+            "group": "GPE",
+            "value": 1199
+        },
+        {
+            "id": "Saudi Arabia (GPE)",
+            "name": "Saudi Arabia",
+            "group": "GPE",
+            "value": 1092
+        },
+        {
+            "id": "SHC (ORG)",
+            "name": "SHC",
+            "group": "ORG",
+            "value": 1080
+        },
+        {
+            "id": "Nato (ORG)",
+            "name": "Nato",
+            "group": "ORG",
+            "value": 1066
+        },
+        {
+            "id": "Iraq (GPE)",
+            "name": "Iraq",
+            "group": "GPE",
+            "value": 1058
+        },
+        {
+            "id": "Ukraine (GPE)",
+            "name": "Ukraine",
+            "group": "GPE",
+            "value": 1056
+        },
+        {
+            "id": "Obama (PERSON)",
+            "name": "Obama",
+            "group": "PERSON",
+            "value": 1040
+        },
+        {
+            "id": "New Zealand (GPE)",
+            "name": "New Zealand",
+            "group": "GPE",
+            "value": 1040
+        },
+        {
+            "id": "PML (ORG)",
+            "name": "PML",
+            "group": "ORG",
+            "value": 1034
+        },
+        {
+            "id": "Japan (GPE)",
+            "name": "Japan",
+            "group": "GPE",
+            "value": 1018
         }
     ],
     "links": [
         {
-            "source": "PPP (ORG)",
-            "target": "PTI (ORG)",
-            "value": 4
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "Zardari (PERSON)",
-            "value": 1
-        },
-        {
-            "source": "India (GPE)",
+            "source": "England (GPE)",
             "target": "Pakistan (GPE)",
-            "value": 25
+            "value": 319
         },
         {
-            "source": "Afghanistan (GPE)",
-            "target": "Kabul (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "Taliban (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Kabul (GPE)",
-            "target": "Taliban (ORG)",
-            "value": 5
-        },
-        {
-            "source": "KP (GPE)",
-            "target": "NAB (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Balochistan (ORG)",
-            "target": "SC (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Gaza (GPE)",
-            "target": "US (GPE)",
-            "value": 4
-        },
-        {
-            "source": "China (GPE)",
-            "target": "US (GPE)",
-            "value": 14
-        },
-        {
-            "source": "India (GPE)",
-            "target": "Sri Lanka (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Iran (GPE)",
+            "source": "IMF (ORG)",
             "target": "Pakistan (GPE)",
-            "value": 6
+            "value": 294
         },
         {
-            "source": "Bangladesh (GPE)",
+            "source": "Lahore (GPE)",
             "target": "Pakistan (GPE)",
-            "value": 5
-        },
-        {
-            "source": "Israel (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Trump (ORG)",
-            "target": "US (GPE)",
-            "value": 7
-        },
-        {
-            "source": "India (GPE)",
-            "target": "US (GPE)",
-            "value": 8
+            "value": 24
         },
         {
             "source": "Pakistan (GPE)",
             "target": "US (GPE)",
-            "value": 29
+            "value": 2092
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "US (GPE)",
+            "value": 566
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 2336
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 706
         },
         {
             "source": "Afghanistan (GPE)",
             "target": "Nato (ORG)",
-            "value": 3
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Gaza (GPE)",
-            "target": "Israel (GPE)",
-            "value": 2
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "England (GPE)",
-            "value": 2
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "India (GPE)",
-            "value": 2
-        },
-        {
-            "source": "England (GPE)",
-            "target": "India (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Russia (GPE)",
-            "target": "Syria (GPE)",
-            "value": 3
-        },
-        {
-            "source": "ECP (ORG)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Australia (GPE)",
-            "target": "India (GPE)",
-            "value": 5
-        },
-        {
-            "source": "PTI (ORG)",
-            "target": "Senate (ORG)",
-            "value": 3
-        },
-        {
-            "source": "Balochistan (GPE)",
-            "target": "Nato (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 8
-        },
-        {
-            "source": "Australia (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 9
-        },
-        {
-            "source": "England (GPE)",
-            "target": "New Zealand (GPE)",
-            "value": 4
-        },
-        {
-            "source": "Pakistan (GPE)",
-            "target": "Syria (GPE)",
-            "value": 1
+            "value": 150
         },
         {
             "source": "China (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 3
+            "target": "India (GPE)",
+            "value": 396
         },
         {
-            "source": "Imran (ORG)",
-            "target": "PML-N (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "Israel (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "Syria (GPE)",
-            "value": 2
+            "source": "India (GPE)",
+            "target": "Japan (GPE)",
+            "value": 37
         },
         {
             "source": "Israel (GPE)",
-            "target": "Syria (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "PTI (ORG)",
-            "value": 1
-        },
-        {
-            "source": "IMF (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 2
-        },
-        {
-            "source": "India (GPE)",
-            "target": "PCB (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Iran (GPE)",
             "target": "US (GPE)",
-            "value": 9
+            "value": 211
         },
         {
-            "source": "PTI (ORG)",
-            "target": "SC (ORG)",
-            "value": 5
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "KP (GPE)",
-            "value": 1
-        },
-        {
-            "source": "India (GPE)",
-            "target": "Russia (GPE)",
-            "value": 1
-        },
-        {
-            "source": "New Zealand (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 7
-        },
-        {
-            "source": "Karachi (ORG)",
-            "target": "SC (ORG)",
-            "value": 2
-        },
-        {
-            "source": "NA (ORG)",
-            "target": "PML-N (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "Taliban (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Afghanistan (GPE)",
+            "source": "Iraq (GPE)",
             "target": "US (GPE)",
-            "value": 13
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "Sindh (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Islamabad (GPE)",
-            "target": "US (GPE)",
-            "value": 1
-        },
-        {
-            "source": "India (GPE)",
-            "target": "Zardari (PERSON)",
-            "value": 1
-        },
-        {
-            "source": "PML-N (ORG)",
-            "target": "PPP (ORG)",
-            "value": 2
-        },
-        {
-            "source": "UN (ORG)",
-            "target": "Yemen (GPE)",
-            "value": 1
-        },
-        {
-            "source": "IMF (ORG)",
-            "target": "Imran (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Pakistan (GPE)",
-            "target": "UN (ORG)",
-            "value": 4
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "UN (ORG)",
-            "value": 2
-        },
-        {
-            "source": "ECP (ORG)",
-            "target": "PPP (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "UN (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "Russia (GPE)",
-            "value": 2
-        },
-        {
-            "source": "Senate (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "PTI (ORG)",
-            "value": 5
-        },
-        {
-            "source": "India (GPE)",
-            "target": "Karachi (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PCB (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Nato (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 2
-        },
-        {
-            "source": "US (GPE)",
-            "target": "Yemen (GPE)",
-            "value": 4
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "US (GPE)",
-            "value": 1
-        },
-        {
-            "source": "SC (ORG)",
-            "target": "Taliban (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "PPP (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "Zardari (PERSON)",
-            "value": 1
-        },
-        {
-            "source": "PPP (ORG)",
-            "target": "Zardari (PERSON)",
-            "value": 2
-        },
-        {
-            "source": "Balochistan (ORG)",
-            "target": "EU (ORG)",
-            "value": 1
-        },
-        {
-            "source": "SC (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Islamabad (GPE)",
-            "target": "PML (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Balochistan (GPE)",
-            "target": "China (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Lahore (GPE)",
-            "target": "PML (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Lahore (GPE)",
-            "target": "PTI (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "PTI (ORG)",
-            "value": 3
-        },
-        {
-            "source": "Khan (PERSON)",
-            "target": "Taliban (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Pakistan (GPE)",
-            "target": "Saudi Arabia (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 2
-        },
-        {
-            "source": "ECP (ORG)",
-            "target": "NA (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Balochistan (ORG)",
-            "target": "PTI (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PPP (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Turkey (GPE)",
-            "target": "US (GPE)",
-            "value": 3
-        },
-        {
-            "source": "IMF (ORG)",
-            "target": "PPP (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Russia (GPE)",
-            "target": "US (GPE)",
-            "value": 4
-        },
-        {
-            "source": "AJK (ORG)",
-            "target": "India (GPE)",
-            "value": 1
-        },
-        {
-            "source": "NA (ORG)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Syria (GPE)",
-            "target": "UK (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Syria (GPE)",
-            "target": "US (GPE)",
-            "value": 4
-        },
-        {
-            "source": "UK (GPE)",
-            "target": "US (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Pakistan (GPE)",
-            "target": "Russia (GPE)",
-            "value": 2
-        },
-        {
-            "source": "PTI (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 2
-        },
-        {
-            "source": "Taliban (ORG)",
-            "target": "UN (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Australia (GPE)",
-            "target": "England (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Syria (GPE)",
-            "target": "UN (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Khan (PERSON)",
-            "target": "US (GPE)",
-            "value": 1
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "SC (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Karachi (ORG)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Taliban (ORG)",
-            "target": "US (GPE)",
-            "value": 3
-        },
-        {
-            "source": "China (GPE)",
-            "target": "Iran (GPE)",
-            "value": 1
-        },
-        {
-            "source": "PPP (ORG)",
-            "target": "SC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PML-N (ORG)",
-            "target": "Zardari (PERSON)",
-            "value": 1
-        },
-        {
-            "source": "Khan (PERSON)",
-            "target": "Pakistan (GPE)",
-            "value": 1
+            "value": 153
         },
         {
             "source": "EU (ORG)",
             "target": "Pakistan (GPE)",
-            "value": 3
+            "value": 119
         },
         {
-            "source": "UN (ORG)",
+            "source": "Pakistan (GPE)",
+            "target": "Russia (GPE)",
+            "value": 132
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "India (GPE)",
+            "value": 216
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 66
+        },
+        {
+            "source": "Obama (PERSON)",
             "target": "US (GPE)",
-            "value": 2
+            "value": 118
         },
         {
             "source": "Nato (ORG)",
-            "target": "Turkey (GPE)",
-            "value": 1
+            "target": "Taliban (ORG)",
+            "value": 33
         },
         {
-            "source": "Nato (ORG)",
-            "target": "US (GPE)",
+            "source": "China (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 517
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "PCB (ORG)",
             "value": 2
         },
         {
-            "source": "Israel (GPE)",
-            "target": "Turkey (GPE)",
-            "value": 1
+            "source": "Imran (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 63
         },
         {
-            "source": "IHC (ORG)",
+            "source": "PCB (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 127
+        },
+        {
+            "source": "NAB (ORG)",
             "target": "SC (ORG)",
+            "value": 165
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 30
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "US (GPE)",
+            "value": 772
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Iran (GPE)",
+            "value": 71
+        },
+        {
+            "source": "China (GPE)",
+            "target": "US (GPE)",
+            "value": 813
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Nato (ORG)",
+            "value": 17
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 342
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Pakistan (GPE)",
+            "value": 55
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 2
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 55
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 11
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Israel (GPE)",
+            "value": 193
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "US (GPE)",
+            "value": 62
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "UN (ORG)",
+            "value": 315
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 206
+        },
+        {
+            "source": "Taliban (ORG)",
+            "target": "US (GPE)",
+            "value": 371
+        },
+        {
+            "source": "Sri Lanka (GPE)",
+            "target": "Zardari (PERSON)",
             "value": 1
         },
         {
             "source": "India (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 83
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Iran (GPE)",
+            "value": 48
+        },
+        {
+            "source": "India (GPE)",
+            "target": "US (GPE)",
+            "value": 594
+        },
+        {
+            "source": "UN (ORG)",
+            "target": "US (GPE)",
+            "value": 191
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Syria (GPE)",
+            "value": 108
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "US (GPE)",
+            "value": 255
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 28
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "US (GPE)",
+            "value": 62
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Russia (GPE)",
+            "value": 36
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "US (GPE)",
+            "value": 380
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 81
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 305
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 102
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Russia (GPE)",
+            "value": 8
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 24
+        },
+        {
+            "source": "Afghanistan (GPE)",
             "target": "UN (ORG)",
+            "value": 77
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "US (GPE)",
+            "value": 35
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "SC (ORG)",
+            "value": 98
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "China (GPE)",
+            "target": "IMF (ORG)",
+            "value": 23
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "India (GPE)",
+            "value": 12
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 342
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 39
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Nato (ORG)",
+            "value": 7
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 24
+        },
+        {
+            "source": "India (GPE)",
+            "target": "UN (ORG)",
+            "value": 116
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "UN (ORG)",
+            "value": 12
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 11
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "India (GPE)",
+            "value": 100
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 120
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "UN (ORG)",
+            "value": 114
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "PPP (ORG)",
+            "value": 47
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "US (GPE)",
+            "value": 7
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Russia (GPE)",
+            "value": 52
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Iran (GPE)",
+            "value": 46
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Obama (PERSON)",
+            "value": 14
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 51
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 256
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "US (GPE)",
+            "value": 81
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "PPP (ORG)",
+            "value": 194
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "IMF (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "England (GPE)",
+            "value": 139
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 303
+        },
+        {
+            "source": "SHC (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 5
+        },
+        {
+            "source": "India (GPE)",
+            "target": "SC (ORG)",
+            "value": 15
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "PPP (ORG)",
+            "value": 30
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Bangladesh (GPE)",
+            "value": 19
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 259
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 51
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 25
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "UN (ORG)",
+            "value": 9
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 17
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "China (GPE)",
+            "value": 29
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "US (GPE)",
+            "value": 31
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "UK (GPE)",
+            "value": 174
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Israel (GPE)",
+            "value": 389
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "US (GPE)",
+            "value": 7
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "India (GPE)",
+            "value": 25
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "PML (ORG)",
+            "value": 25
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Iran (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "PCB (ORG)",
+            "value": 18
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Taliban (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "India (GPE)",
+            "value": 138
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "PCB (ORG)",
+            "value": 10
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Russia (GPE)",
+            "value": 66
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Syria (GPE)",
+            "value": 54
+        },
+        {
+            "source": "UK (GPE)",
+            "target": "US (GPE)",
+            "value": 86
+        },
+        {
+            "source": "Taliban (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 8
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Syria (GPE)",
+            "value": 50
+        },
+        {
+            "source": "UN (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 5
+        },
+        {
+            "source": "SHC (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 59
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Iran (GPE)",
+            "value": 70
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Senate (ORG)",
+            "value": 67
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Iraq (GPE)",
+            "value": 66
+        },
+        {
+            "source": "US (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 32
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "PML (ORG)",
+            "value": 6
+        },
+        {
+            "source": "England (GPE)",
+            "target": "India (GPE)",
+            "value": 189
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 37
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "PPP (ORG)",
+            "value": 50
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "PML (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 4
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 45
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Japan (GPE)",
+            "value": 11
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "SC (ORG)",
+            "value": 70
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "KP (GPE)",
+            "value": 55
+        },
+        {
+            "source": "UK (GPE)",
+            "target": "Zardari (PERSON)",
             "value": 1
         },
         {
-            "source": "KP (GPE)",
+            "source": "China (GPE)",
+            "target": "Russia (GPE)",
+            "value": 144
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "SC (ORG)",
+            "value": 30
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 2
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 38
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Russia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "SC (ORG)",
+            "value": 57
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 49
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Bangladesh (GPE)",
+            "value": 24
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Syria (GPE)",
+            "value": 157
+        },
+        {
+            "source": "China (GPE)",
+            "target": "UN (ORG)",
+            "value": 60
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 99
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "England (GPE)",
+            "value": 31
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 3
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 8
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 87
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "US (GPE)",
+            "value": 70
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 37
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "India (GPE)",
+            "value": 7
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 59
+        },
+        {
+            "source": "India (GPE)",
+            "target": "PCB (ORG)",
+            "value": 55
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "SC (ORG)",
+            "value": 38
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 5
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "KP (GPE)",
+            "value": 28
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "PTI (ORG)",
+            "value": 12
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "UN (ORG)",
+            "value": 131
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 106
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Sri Lanka (GPE)",
+            "target": "UN (ORG)",
+            "value": 20
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 4
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 12
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "UN (ORG)",
+            "value": 177
+        },
+        {
+            "source": "Taliban (ORG)",
+            "target": "UN (ORG)",
+            "value": 65
+        },
+        {
+            "source": "Turkey (GPE)",
+            "target": "UN (ORG)",
+            "value": 12
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "SC (ORG)",
+            "value": 11
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Japan (GPE)",
+            "value": 63
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 13
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 54
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 15
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "PTI (ORG)",
+            "value": 89
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 2
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "US (GPE)",
+            "value": 14
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "US (GPE)",
+            "value": 12
+        },
+        {
+            "source": "India (GPE)",
             "target": "UK (GPE)",
+            "value": 42
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 8
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Syria (GPE)",
+            "value": 6
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 7
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 10
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "UN (ORG)",
+            "value": 118
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 15
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Russia (GPE)",
+            "value": 7
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Israel (GPE)",
+            "value": 7
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Israel (GPE)",
+            "value": 29
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Japan (GPE)",
+            "value": 13
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 134
+        },
+        {
+            "source": "Turkey (GPE)",
+            "target": "US (GPE)",
+            "value": 105
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Syria (GPE)",
+            "value": 21
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "UN (ORG)",
+            "value": 44
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 50
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 15
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 28
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "US (GPE)",
+            "value": 88
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Japan (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 15
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "SHC (ORG)",
+            "value": 4
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 66
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 26
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 11
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 55
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "NA (ORG)",
+            "value": 17
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "US (GPE)",
+            "value": 26
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "NA (ORG)",
+            "value": 9
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "US (GPE)",
+            "value": 45
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "SC (ORG)",
+            "value": 35
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 7
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "KP (GPE)",
+            "value": 33
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Syria (GPE)",
+            "value": 7
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Syria (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "UN (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Karachi (GPE)",
+            "value": 5
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "US (GPE)",
+            "value": 77
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Karachi (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "NA (ORG)",
+            "value": 16
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 12
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Russia (GPE)",
+            "value": 82
+        },
+        {
+            "source": "England (GPE)",
+            "target": "PCB (ORG)",
+            "value": 18
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Syria (GPE)",
+            "value": 35
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 10
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 23
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "India (GPE)",
+            "value": 17
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "SC (ORG)",
+            "value": 33
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Obama (PERSON)",
+            "value": 1
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "UN (ORG)",
+            "value": 3
+        },
+        {
+            "source": "China (GPE)",
+            "target": "EU (ORG)",
+            "value": 44
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 17
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 86
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 89
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Senate (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Senate (ORG)",
+            "value": 15
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Russia (GPE)",
+            "value": 9
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Turkey (GPE)",
+            "value": 5
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 11
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "PCB (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Senate (ORG)",
+            "value": 38
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 51
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Senate (ORG)",
+            "value": 5
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 19
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 13
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 8
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 21
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 78
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "Senate (ORG)",
+            "value": 54
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 11
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "UN (ORG)",
+            "value": 5
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 11
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "PTI (ORG)",
+            "value": 69
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 7
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Syria (GPE)",
+            "value": 26
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 35
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "PML (ORG)",
+            "value": 20
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "EU (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 33
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "PPP (ORG)",
+            "value": 41
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 50
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 3
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "PTI (ORG)",
+            "value": 109
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "US (GPE)",
+            "value": 21
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Nato (ORG)",
+            "value": 9
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Nato (ORG)",
+            "value": 7
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Senate (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Nato (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "NAB (ORG)",
+            "value": 11
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "PTI (ORG)",
+            "value": 281
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "PTI (ORG)",
+            "value": 175
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "PTI (ORG)",
+            "value": 57
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Karachi (ORG)",
+            "value": 15
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "SC (ORG)",
+            "value": 18
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "SHC (ORG)",
+            "value": 25
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "China (GPE)",
+            "value": 48
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 11
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "PPP (ORG)",
+            "value": 7
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "PML (ORG)",
+            "value": 6
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "NA (ORG)",
+            "value": 39
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 23
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "Senate (ORG)",
+            "value": 26
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 2
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "SHC (ORG)",
+            "value": 35
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 26
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "PPP (ORG)",
+            "value": 15
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Senate (ORG)",
+            "value": 29
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "Senate (ORG)",
+            "value": 81
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "UK (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "PTI (ORG)",
+            "value": 278
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 23
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 18
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "UK (GPE)",
+            "value": 11
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "US (GPE)",
+            "value": 47
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Senate (ORG)",
+            "value": 54
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 5
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "US (GPE)",
+            "value": 10
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "PTI (ORG)",
+            "value": 11
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "KP (GPE)",
+            "value": 14
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 9
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "US (GPE)",
+            "value": 2
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "Senate (ORG)",
+            "value": 25
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "PCB (ORG)",
+            "value": 17
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "UN (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Iraq (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 10
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "UK (GPE)",
+            "value": 9
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "PPP (ORG)",
+            "value": 43
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Senate (ORG)",
+            "value": 21
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 5
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Gaza (GPE)",
+            "value": 3
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 15
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 46
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "SHC (ORG)",
+            "value": 28
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Japan (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "PPP (ORG)",
+            "value": 26
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "PTI (ORG)",
+            "value": 217
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Australia (GPE)",
+            "value": 21
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 13
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "PCB (ORG)",
+            "value": 5
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 12
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "UK (GPE)",
+            "value": 3
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Israel (GPE)",
+            "value": 16
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Syria (GPE)",
+            "value": 10
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "US (GPE)",
+            "value": 11
+        },
+        {
+            "source": "England (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 71
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "SC (ORG)",
+            "value": 22
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "PTI (ORG)",
+            "value": 158
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "SC (ORG)",
+            "value": 177
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Nato (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Balochistan (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "New Zealand (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 2
+        },
+        {
+            "source": "England (GPE)",
+            "target": "KP (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Nato (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Japan (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Senate (ORG)",
+            "value": 26
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "UN (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "UK (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 35
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "SC (ORG)",
+            "value": 16
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Nato (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Balochistan (ORG)",
+            "value": 2
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 9
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "UN (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Lahore (GPE)",
+            "value": 26
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 59
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 21
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 6
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 9
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "UN (ORG)",
+            "value": 19
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Senate (ORG)",
+            "value": 14
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "UN (ORG)",
+            "value": 10
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 12
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Islamabad (GPE)",
+            "value": 31
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 10
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "UK (GPE)",
+            "value": 68
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Zardari (PERSON)",
+            "value": 1
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 45
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Obama (PERSON)",
+            "value": 2
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 6
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "UK (GPE)",
+            "value": 17
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "NA (ORG)",
+            "value": 6
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "SC (ORG)",
+            "value": 87
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 25
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Russia (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Iran (GPE)",
+            "value": 10
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Karachi (ORG)",
+            "value": 14
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "IMF (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Iraq (GPE)",
+            "value": 8
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Karachi (GPE)",
+            "value": 16
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "Senate (ORG)",
+            "value": 18
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "PTI (ORG)",
+            "value": 152
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 9
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "PML (ORG)",
+            "value": 5
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "India (GPE)",
+            "value": 1
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 38
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "PTI (ORG)",
+            "value": 316
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Russia (GPE)",
+            "value": 11
+        },
+        {
+            "source": "Taliban (ORG)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 5
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "UN (ORG)",
+            "value": 17
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "US (GPE)",
+            "value": 15
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Iran (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 3
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "PCB (ORG)",
+            "value": 5
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "PML (ORG)",
+            "value": 11
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "SHC (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "ECP (ORG)",
+            "value": 8
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "NA (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "NA (ORG)",
+            "value": 24
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "ECP (ORG)",
+            "value": 11
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 15
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 4
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Israel (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "EU (ORG)",
+            "value": 6
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 47
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 81
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "NA (ORG)",
+            "value": 20
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Imran (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 15
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "PML (ORG)",
+            "value": 10
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Imran (ORG)",
+            "value": 86
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 8
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "NA (ORG)",
+            "value": 9
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 16
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "SHC (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Karachi (GPE)",
+            "value": 5
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "PCB (ORG)",
+            "value": 13
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "SHC (ORG)",
+            "value": 19
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 8
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "KP (GPE)",
+            "value": 44
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Islamabad (GPE)",
+            "value": 8
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 11
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "PPP (ORG)",
+            "value": 11
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "NA (ORG)",
+            "value": 5
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "UN (ORG)",
+            "value": 3
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "PPP (ORG)",
+            "value": 22
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "US (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Senate (ORG)",
+            "value": 13
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "PML (ORG)",
             "value": 1
         },
         {
             "source": "Saudi Arabia (GPE)",
             "target": "UN (ORG)",
-            "value": 1
+            "value": 12
         },
         {
-            "source": "Kabul (GPE)",
-            "target": "Pakistan (GPE)",
+            "source": "ECP (ORG)",
+            "target": "PCB (ORG)",
             "value": 2
         },
         {
-            "source": "New Zealand (GPE)",
-            "target": "PCB (ORG)",
-            "value": 1
+            "source": "India (GPE)",
+            "target": "NA (ORG)",
+            "value": 10
         },
         {
-            "source": "Pakistan (GPE)",
+            "source": "KP (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 15
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "SC (ORG)",
+            "value": 87
+        },
+        {
+            "source": "Senate (ORG)",
             "target": "Taliban (ORG)",
-            "value": 1
+            "value": 2
         },
         {
-            "source": "Pakistan (GPE)",
-            "target": "Sri Lanka (GPE)",
+            "source": "KP (GPE)",
+            "target": "UK (GPE)",
             "value": 3
         },
         {
-            "source": "IHC (ORG)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
-            "source": "KP (GPE)",
-            "target": "PPP (ORG)",
+            "source": "Obama (PERSON)",
+            "target": "Senate (ORG)",
             "value": 1
         },
         {
-            "source": "KP (GPE)",
-            "target": "PTI (ORG)",
-            "value": 5
-        },
-        {
-            "source": "KP (GPE)",
-            "target": "Sindh (GPE)",
+            "source": "Senate (ORG)",
+            "target": "Syria (GPE)",
             "value": 2
         },
         {
             "source": "PTI (ORG)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Taliban (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 1
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "Sri Lanka (GPE)",
+            "value": 12
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Obama (PERSON)",
+            "value": 1
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "SC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 4
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "SC (ORG)",
+            "value": 37
+        },
+        {
+            "source": "India (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "PTI (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 33
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Nato (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "UK (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Nato (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "UN (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "UN (ORG)",
+            "value": 21
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "NAB (ORG)",
+            "value": 16
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Russia (GPE)",
+            "value": 46
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 33
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 313
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Senate (ORG)",
+            "value": 8
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Senate (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 7
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "China (GPE)",
+            "value": 12
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Israel (GPE)",
+            "value": 4
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Senate (ORG)",
+            "value": 139
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Senate (ORG)",
+            "value": 11
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Ukraine (GPE)",
+            "value": 6
+        },
+        {
+            "source": "US (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 132
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 22
+        },
+        {
+            "source": "Sri Lanka (GPE)",
+            "target": "US (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 39
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "NA (ORG)",
+            "value": 3
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Obama (PERSON)",
+            "value": 4
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Iran (GPE)",
+            "value": 9
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "NAB (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "UN (ORG)",
+            "value": 6
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "SC (ORG)",
+            "value": 5
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "PTI (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 19
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "PPP (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Nato (ORG)",
+            "value": 3
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 13
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "US (GPE)",
+            "value": 9
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "IHC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "PTI (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "PTI (ORG)",
+            "value": 7
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 2
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "UN (ORG)",
+            "value": 6
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "UK (GPE)",
+            "value": 20
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "PML (ORG)",
+            "value": 8
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "PTI (ORG)",
+            "value": 99
+        },
+        {
+            "source": "China (GPE)",
+            "target": "NA (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Syria (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "SHC (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "UK (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Turkey (GPE)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "KP (GPE)",
+            "value": 47
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Iraq (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 11
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "NA (ORG)",
+            "value": 1
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 3
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "UK (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "PPP (ORG)",
+            "value": 8
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "US (GPE)",
+            "value": 33
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "US (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Islamabad (GPE)",
+            "value": 55
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Lahore (GPE)",
+            "value": 5
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Taliban (ORG)",
+            "value": 5
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 3
+        },
+        {
+            "source": "China (GPE)",
+            "target": "PTI (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "SC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "IMF (ORG)",
+            "value": 4
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "UN (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Japan (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Syria (GPE)",
+            "value": 3
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "UK (GPE)",
+            "value": 12
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "UN (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "China (GPE)",
+            "value": 7
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "PTI (ORG)",
+            "value": 38
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 15
+        },
+        {
+            "source": "England (GPE)",
+            "target": "US (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "India (GPE)",
+            "value": 2
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 15
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "NAB (ORG)",
+            "value": 27
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Islamabad (GPE)",
+            "value": 39
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "PPP (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Trump (ORG)",
+            "target": "US (GPE)",
+            "value": 353
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "UK (GPE)",
+            "value": 16
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "EU (ORG)",
+            "value": 10
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 2
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Lahore (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "UK (GPE)",
+            "value": 5
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "IHC (ORG)",
+            "value": 49
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Obama (PERSON)",
+            "value": 1
+        },
+        {
+            "source": "Obama (PERSON)",
+            "target": "Trump (ORG)",
+            "value": 15
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 5
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "PTI (ORG)",
+            "value": 4
+        },
+        {
+            "source": "China (GPE)",
+            "target": "UK (GPE)",
+            "value": 25
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 3
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 5
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "SHC (ORG)",
+            "value": 19
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 4
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "NAB (ORG)",
+            "value": 50
+        },
+        {
+            "source": "Trump (ORG)",
+            "target": "UK (GPE)",
+            "value": 12
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "NAB (ORG)",
+            "value": 6
+        },
+        {
+            "source": "UN (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 21
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 18
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 27
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Syria (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Trump (ORG)",
+            "value": 70
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "PTI (ORG)",
+            "value": 2
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "SHC (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 10
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "US (GPE)",
+            "value": 16
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Iraq (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "NAB (ORG)",
+            "value": 9
+        },
+        {
+            "source": "Trump (ORG)",
+            "target": "UN (ORG)",
+            "value": 25
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 3
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Sri Lanka (GPE)",
+            "value": 9
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Nato (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 1
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 1
+        },
+        {
+            "source": "India (GPE)",
+            "target": "KP (GPE)",
+            "value": 6
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 2
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Trump (ORG)",
+            "value": 70
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "NAB (ORG)",
+            "value": 6
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "SHC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "UN (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Russia (GPE)",
+            "target": "Trump (ORG)",
+            "value": 50
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "Trump (ORG)",
+            "value": 54
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "NAB (ORG)",
+            "value": 15
+        },
+        {
+            "source": "China (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 1
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "Senate (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Balochistan (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "India (GPE)",
+            "value": 4
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "PCB (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Nato (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Pakistan (GPE)",
+            "value": 30
+        },
+        {
+            "source": "PML-N (ORG)",
+            "target": "UK (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "Trump (ORG)",
+            "value": 18
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 1
+        },
+        {
+            "source": "KP (GPE)",
+            "target": "UN (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "NA (ORG)",
+            "value": 13
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Trump (ORG)",
+            "value": 18
+        },
+        {
+            "source": "Taliban (ORG)",
+            "target": "Trump (ORG)",
+            "value": 13
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Trump (ORG)",
+            "value": 91
+        },
+        {
+            "source": "Nato (ORG)",
+            "target": "Trump (ORG)",
+            "value": 13
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 1
+        },
+        {
+            "source": "India (GPE)",
+            "target": "PTI (ORG)",
+            "value": 13
+        },
+        {
+            "source": "China (GPE)",
             "target": "Sindh (GPE)",
             "value": 2
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 9
+        },
+        {
+            "source": "China (GPE)",
+            "target": "NAB (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Iran (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Trump (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 8
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Trump (ORG)",
+            "value": 42
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "PCB (ORG)",
+            "value": 6
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Russia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Trump (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 4
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Trump (ORG)",
+            "value": 3
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Trump (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Trump (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Trump (ORG)",
+            "value": 1
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 9
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Turkey (GPE)",
+            "value": 2
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Trump (ORG)",
+            "value": 18
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Islamabad (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 3
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "UK (GPE)",
+            "value": 5
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Japan (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Trump (ORG)",
+            "value": 6
+        },
+        {
+            "source": "China (GPE)",
+            "target": "KP (GPE)",
+            "value": 2
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Zardari (PERSON)",
+            "value": 16
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "EU (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "NA (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Trump (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Syria (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Pakistan (GPE)",
+            "target": "SHC (ORG)",
+            "value": 3
+        },
+        {
+            "source": "China (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 3
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "Trump (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "Trump (ORG)",
+            "value": 8
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Balochistan (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 8
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "China (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "PTI (ORG)",
+            "value": 16
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "PTI (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 18
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Imran (ORG)",
+            "value": 121
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "NAB (ORG)",
+            "value": 6
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Russia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "PCB (ORG)",
+            "value": 5
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Nato (ORG)",
+            "value": 1
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "UN (ORG)",
+            "value": 1
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "PML (ORG)",
+            "value": 11
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "SHC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Trump (ORG)",
+            "value": 29
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "Trump (ORG)",
+            "value": 1
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "PML (ORG)",
+            "value": 3
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 16
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "UN (ORG)",
+            "value": 5
+        },
+        {
+            "source": "UK (GPE)",
+            "target": "UN (ORG)",
+            "value": 6
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "SC (ORG)",
+            "value": 5
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Senate (ORG)",
+            "value": 4
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Senate (ORG)",
+            "value": 8
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "UK (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "Senate (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Trump (ORG)",
+            "value": 5
+        },
+        {
+            "source": "India (GPE)",
+            "target": "NAB (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Russia (GPE)",
+            "value": 4
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Karachi (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Lahore (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "NA (ORG)",
+            "value": 3
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Trump (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Senate (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Imran (ORG)",
+            "value": 3
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Iran (GPE)",
+            "value": 3
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "US (GPE)",
+            "value": 3
+        },
+        {
+            "source": "SC (ORG)",
+            "target": "Trump (ORG)",
+            "value": 2
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "UN (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "NAB (ORG)",
+            "target": "UK (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Russia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Imran (ORG)",
+            "value": 1
+        },
+        {
+            "source": "China (GPE)",
+            "target": "England (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Japan (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Israel (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 2
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "US (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "New Zealand (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 6
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "Pakistan (GPE)",
+            "value": 3
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Iran (GPE)",
+            "value": 2
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Islamabad (GPE)",
+            "value": 5
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 3
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "UN (ORG)",
+            "value": 1
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "England (GPE)",
+            "value": 10
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "PCB (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Trump (ORG)",
+            "value": 5
+        },
+        {
+            "source": "Trump (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 29
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 8
+        },
+        {
+            "source": "England (GPE)",
+            "target": "UK (GPE)",
+            "value": 6
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 2
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "UK (GPE)",
+            "value": 1
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "UK (GPE)",
+            "value": 1
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Iran (GPE)",
+            "value": 2
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "India (GPE)",
+            "value": 3
+        },
+        {
+            "source": "China (GPE)",
+            "target": "IHC (ORG)",
+            "value": 2
+        },
+        {
+            "source": "PPP (ORG)",
+            "target": "Trump (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "KP (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Imran (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Turkey (GPE)",
+            "value": 1
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "UK (GPE)",
+            "value": 1
+        },
+        {
+            "source": "SHC (ORG)",
+            "target": "US (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "PML-N (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Sindh (GPE)",
+            "target": "UK (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Balochistan (GPE)",
+            "target": "PPP (ORG)",
+            "value": 8
+        },
+        {
+            "source": "EU (ORG)",
+            "target": "NAB (ORG)",
+            "value": 1
+        },
+        {
+            "source": "SHC (ORG)",
+            "target": "Senate (ORG)",
+            "value": 2
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "PPP (ORG)",
+            "value": 8
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "UK (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 5
+        },
+        {
+            "source": "Israel (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "PPP (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Imran (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 1
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "Senate (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Islamabad (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 3
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "Russia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 12
+        },
+        {
+            "source": "UK (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 12
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "Taliban (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "UK (GPE)",
+            "value": 2
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "KP (GPE)",
+            "value": 2
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 17
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Russia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Russia (GPE)",
+            "value": 3
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Karachi (ORG)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "ECP (ORG)",
+            "target": "NAB (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Lahore (GPE)",
+            "target": "SHC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Turkey (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Imran (ORG)",
+            "target": "SHC (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Sri Lanka (GPE)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 1
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "PML-N (ORG)",
+            "value": 1
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "UK (GPE)",
+            "value": 3
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 1
+        },
+        {
+            "source": "England (GPE)",
+            "target": "Lahore (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Imran (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "UK (GPE)",
+            "value": 3
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Sindh (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "NA (ORG)",
+            "target": "SHC (ORG)",
+            "value": 2
+        },
+        {
+            "source": "IMF (ORG)",
+            "target": "Imran (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "New Zealand (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "UK (GPE)",
+            "value": 4
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Ukraine (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "KP (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "UK (GPE)",
+            "value": 13
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Senate (ORG)",
+            "value": 2
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Karachi (ORG)",
+            "value": 4
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 5
+        },
+        {
+            "source": "PTI (ORG)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Australia (GPE)",
+            "target": "Gaza (GPE)",
+            "value": 2
+        },
+        {
+            "source": "Karachi (GPE)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "China (GPE)",
+            "target": "Gaza (GPE)",
+            "value": 3
+        },
+        {
+            "source": "Islamabad (GPE)",
+            "target": "Israel (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Afghanistan (GPE)",
+            "target": "Gaza (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Karachi (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "IMF (ORG)",
+            "value": 1
+        },
+        {
+            "source": "SHC (ORG)",
+            "target": "Syria (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
+            "target": "Sindh (GPE)",
+            "value": 1
         },
         {
             "source": "Israel (GPE)",
@@ -928,289 +4228,84 @@
             "value": 1
         },
         {
-            "source": "Israel (GPE)",
-            "target": "US (GPE)",
-            "value": 2
-        },
-        {
-            "source": "Lahore (GPE)",
-            "target": "US (GPE)",
-            "value": 1
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "SHC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 2
-        },
-        {
-            "source": "SHC (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 2
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "SC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "China (GPE)",
-            "target": "Islamabad (GPE)",
-            "value": 1
-        },
-        {
-            "source": "KP (GPE)",
-            "target": "Taliban (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "PML (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "PPP (ORG)",
-            "value": 3
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "Karachi (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "Karachi (ORG)",
-            "value": 1
-        },
-        {
-            "source": "ECP (ORG)",
-            "target": "Karachi (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Islamabad (GPE)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
-            "source": "PTI (ORG)",
-            "target": "SHC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "Senate (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Khan (PERSON)",
-            "target": "Zardari (PERSON)",
-            "value": 1
-        },
-        {
-            "source": "Karachi (ORG)",
-            "target": "PPP (ORG)",
-            "value": 1
-        },
-        {
-            "source": "New Zealand (GPE)",
-            "target": "Sri Lanka (GPE)",
-            "value": 2
-        },
-        {
-            "source": "England (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 4
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "UN (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Karachi (ORG)",
-            "target": "SHC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PTI (ORG)",
-            "target": "Taliban (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Syria (GPE)",
-            "target": "Turkey (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "Russia (GPE)",
-            "value": 1
-        },
-        {
-            "source": "China (GPE)",
-            "target": "Trump (ORG)",
-            "value": 2
-        },
-        {
-            "source": "Bangladesh (GPE)",
-            "target": "US (GPE)",
-            "value": 1
-        },
-        {
-            "source": "AJK (ORG)",
-            "target": "PPP (ORG)",
-            "value": 1
-        },
-        {
-            "source": "China (GPE)",
-            "target": "India (GPE)",
-            "value": 3
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "SC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "China (GPE)",
-            "target": "Russia (GPE)",
-            "value": 1
-        },
-        {
-            "source": "China (GPE)",
-            "target": "Syria (GPE)",
-            "value": 1
-        },
-        {
-            "source": "China (GPE)",
-            "target": "UN (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Russia (GPE)",
-            "target": "UN (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PML-N (ORG)",
-            "target": "PTI (ORG)",
-            "value": 2
-        },
-        {
             "source": "Gaza (GPE)",
-            "target": "UN (ORG)",
+            "target": "Nato (ORG)",
             "value": 1
         },
         {
-            "source": "Australia (GPE)",
-            "target": "China (GPE)",
-            "value": 1
+            "source": "Karachi (GPE)",
+            "target": "Russia (GPE)",
+            "value": 2
         },
         {
-            "source": "Australia (GPE)",
-            "target": "US (GPE)",
-            "value": 1
-        },
-        {
-            "source": "AJK (ORG)",
-            "target": "Islamabad (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Imran (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Balochistan (ORG)",
-            "target": "Karachi (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Balochistan (ORG)",
-            "target": "NA (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Karachi (ORG)",
-            "target": "NA (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Islamabad (GPE)",
+            "source": "Sri Lanka (GPE)",
             "target": "UK (GPE)",
-            "value": 1
-        },
-        {
-            "source": "ECP (ORG)",
-            "target": "SC (ORG)",
-            "value": 1
-        },
-        {
-            "source": "KP (GPE)",
-            "target": "Khan (PERSON)",
-            "value": 1
-        },
-        {
-            "source": "Pakistan (GPE)",
-            "target": "UK (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "Trump (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Islamabad (GPE)",
-            "target": "Karachi (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Islamabad (GPE)",
-            "target": "PPP (ORG)",
-            "value": 1
-        },
-        {
-            "source": "NA (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Syria (GPE)",
-            "target": "Trump (ORG)",
-            "value": 1
-        },
-        {
-            "source": "Trump (ORG)",
-            "target": "Turkey (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Khan (PERSON)",
-            "target": "PTI (ORG)",
             "value": 1
         },
         {
             "source": "Bangladesh (GPE)",
-            "target": "New Zealand (GPE)",
+            "target": "Trump (ORG)",
             "value": 1
         },
         {
-            "source": "Islamabad (GPE)",
+            "source": "India (GPE)",
+            "target": "PPP (ORG)",
+            "value": 3
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "Japan (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Japan (GPE)",
             "target": "KP (GPE)",
             "value": 1
         },
         {
-            "source": "China (GPE)",
-            "target": "IMF (ORG)",
+            "source": "Afghanistan (GPE)",
+            "target": "Senate (ORG)",
             "value": 1
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "Ukraine (GPE)",
+            "value": 4
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "PML (ORG)",
+            "value": 1
+        },
+        {
+            "source": "PML (ORG)",
+            "target": "Trump (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "PPP (ORG)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Iraq (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Japan (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Senate (ORG)",
+            "target": "Sri Lanka (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Iraq (GPE)",
+            "target": "Zardari (PERSON)",
+            "value": 2
         }
     ]
 }
