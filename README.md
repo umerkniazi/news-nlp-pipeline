@@ -1,51 +1,41 @@
-# Pakistan News Intelligence NLP Pipeline (2010–2025)
-> **⚠️ Legal & Ethical Notice:** This repository is for **academic research purposes only**. The data collection modules (scrapers) are designed with respectful rate-limiting and custom headers to adhere to ethical crawling standards and avoid server strain. All news content and headlines remain the intellectual property of the [Dawn Media Group](https://www.dawn.com). This project does not redistribute the raw news dataset; it provides the framework for processing and analysis.
+# news-nlp-pipeline
 
-An end-to-end NLP pipeline designed to process ~350,000 news headlines from Dawn News to extract entities, sentiment, and latent topics.
+End-to-end NLP pipeline processing 350,718 Dawn News headlines (2010–2025) for topic modeling, named entity recognition, and sentiment analysis. No labels or supervision — the structure emerges from the data itself.
 
-## Tech Stack
-- **Data:** pandas, pyarrow (Parquet)
-- **NLP:** spaCy (NER), NLTK (VADER Sentiment)
-- **Modeling:** BERTopic, sentence-transformers (Topic Modeling)
+> **Note:** Built for academic research. Raw data not redistributed. All content remains property of [Dawn Media Group](https://www.dawn.com).
+
+## What it found
+
+- Cricket dominates Dawn's coverage — 40k+ headlines, nearly double the next topic (Energy Economy)
+- Dawn skews negative: 36.2% negative, 22.6% positive, 41.2% neutral across 15 years
+- US is the second most mentioned entity after Pakistan, ahead of India
+- 404,583 named entities extracted across 20 discovered topics
+
+## Stack
+
+- **NLP:** spaCy (NER), NLTK VADER (sentiment)
+- **Modeling:** BERTopic, sentence-transformers
 - **Dashboard:** Streamlit, Plotly, PyVis
+- **Data:** pandas, pyarrow
 
-## Key Outputs
-- **Named Entity Recognition:** Identifying key political figures, locations, and organizations.
-- **Sentiment Analysis:** Tracking national mood and reporting tone over 15 years.
-- **Topic Modeling:** Discovering hidden themes in regional reporting (Politics, Economy, Security).
-- **Temporal Insights:** Visualizing how news volume and sentiment shift across different events.
+## Structure
 
-## Project Structure
 ```text
-├── data/               # Raw and processed Parquet files
-├── notebooks/          # Research and EDA notebooks
-├── scripts/            # Utility scripts (e.g. plot precomputation)
-├── src/                # Modular NLP pipeline scripts
+├── data/               # Processed Parquet files
+├── notebooks/          # Research and EDA
+├── scripts/            # Utility and precomputation scripts
+├── src/                # Modular pipeline
 ├── app.py              # Streamlit dashboard
-└── tests/              # Unit tests for NLP logic
+└── tests/              # Unit tests
 ```
 
-## How to Run
+## Run locally
+
 ```bash
 git clone https://github.com/umerkniazi/news-nlp-pipeline.git
 cd news-nlp-pipeline
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-```
-
-### Run the Pipeline
-```bash
-python src/run_pipeline.py
-```
-
-### Precompute Dashboard Plots
-Run this once after the pipeline completes, and again whenever the underlying data changes:
-```bash
 python scripts/precompute_plots.py
-```
-This generates static Plotly charts and the entity co-occurrence network into `assets/plots/`, so the dashboard loads instantly without recomputing them at runtime.
-
-### Launch the Analytics Dashboard
-```bash
 streamlit run app.py
 ```
