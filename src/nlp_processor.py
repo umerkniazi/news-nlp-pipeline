@@ -12,7 +12,7 @@ class NLPProcessor:
     def __init__(self, spacy_model: str = SPACY_MODEL):
         self.nlp = spacy.load(spacy_model, disable=["parser", "tagger", "lemmatizer"])
         self.sia = SentimentIntensityAnalyzer()
-        self.valid_labels = {'PERSON', 'ORG', 'GPE'}
+        self.valid_labels = {"PERSON", "ORG", "GPE", "LOC", "EVENT"}
 
     def analyze_sentiment(self, text: str) -> Tuple[float, str]:
         if not isinstance(text, str) or not text.strip():
