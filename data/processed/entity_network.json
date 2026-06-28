@@ -157,6 +157,12 @@
             "value": 2087
         },
         {
+            "id": "Kashmir (LOC)",
+            "name": "Kashmir",
+            "group": "LOC",
+            "value": 2064
+        },
+        {
             "id": "Syria (GPE)",
             "name": "Syria",
             "group": "GPE",
@@ -197,6 +203,12 @@
             "name": "Gaza",
             "group": "GPE",
             "value": 1625
+        },
+        {
+            "id": "World Cup (EVENT)",
+            "name": "World Cup",
+            "group": "EVENT",
+            "value": 1614
         },
         {
             "id": "Balochistan (GPE)",
@@ -287,18 +299,6 @@
             "name": "New Zealand",
             "group": "GPE",
             "value": 1040
-        },
-        {
-            "id": "PML (ORG)",
-            "name": "PML",
-            "group": "ORG",
-            "value": 1034
-        },
-        {
-            "id": "Japan (GPE)",
-            "name": "Japan",
-            "group": "GPE",
-            "value": 1018
         }
     ],
     "links": [
@@ -346,11 +346,6 @@
             "source": "China (GPE)",
             "target": "India (GPE)",
             "value": 396
-        },
-        {
-            "source": "India (GPE)",
-            "target": "Japan (GPE)",
-            "value": 37
         },
         {
             "source": "Israel (GPE)",
@@ -478,6 +473,16 @@
             "value": 62
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "Pakistan (GPE)",
+            "value": 236
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "US (GPE)",
+            "value": 84
+        },
+        {
             "source": "Pakistan (GPE)",
             "target": "UN (ORG)",
             "value": 315
@@ -503,6 +508,11 @@
             "value": 83
         },
         {
+            "source": "Sri Lanka (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 37
+        },
+        {
             "source": "Afghanistan (GPE)",
             "target": "Iran (GPE)",
             "value": 48
@@ -511,6 +521,11 @@
             "source": "India (GPE)",
             "target": "US (GPE)",
             "value": 594
+        },
+        {
+            "source": "India (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 589
         },
         {
             "source": "UN (ORG)",
@@ -528,14 +543,14 @@
             "value": 255
         },
         {
+            "source": "Pakistan (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 298
+        },
+        {
             "source": "India (GPE)",
             "target": "Obama (PERSON)",
             "value": 28
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "US (GPE)",
-            "value": 62
         },
         {
             "source": "Afghanistan (GPE)",
@@ -563,9 +578,9 @@
             "value": 102
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Russia (GPE)",
-            "value": 8
+            "source": "Australia (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 79
         },
         {
             "source": "Sindh (GPE)",
@@ -601,6 +616,11 @@
             "source": "IMF (ORG)",
             "target": "India (GPE)",
             "value": 12
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Obama (PERSON)",
+            "value": 1
         },
         {
             "source": "Australia (GPE)",
@@ -653,11 +673,6 @@
             "value": 114
         },
         {
-            "source": "PML (ORG)",
-            "target": "PPP (ORG)",
-            "value": 47
-        },
-        {
             "source": "Lahore (GPE)",
             "target": "US (GPE)",
             "value": 7
@@ -676,11 +691,6 @@
             "source": "Nato (ORG)",
             "target": "Obama (PERSON)",
             "value": 14
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "Pakistan (GPE)",
-            "value": 51
         },
         {
             "source": "Bangladesh (GPE)",
@@ -753,6 +763,11 @@
             "value": 25
         },
         {
+            "source": "Russia (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 27
+        },
+        {
             "source": "Sindh (GPE)",
             "target": "UN (ORG)",
             "value": 9
@@ -793,11 +808,6 @@
             "value": 25
         },
         {
-            "source": "NA (ORG)",
-            "target": "PML (ORG)",
-            "value": 25
-        },
-        {
             "source": "Australia (GPE)",
             "target": "Iran (GPE)",
             "value": 4
@@ -811,6 +821,11 @@
             "source": "Obama (PERSON)",
             "target": "Taliban (ORG)",
             "value": 5
+        },
+        {
+            "source": "India (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 161
         },
         {
             "source": "Bangladesh (GPE)",
@@ -831,6 +846,11 @@
             "source": "Iraq (GPE)",
             "target": "Syria (GPE)",
             "value": 54
+        },
+        {
+            "source": "Bangladesh (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 39
         },
         {
             "source": "UK (GPE)",
@@ -878,11 +898,6 @@
             "value": 32
         },
         {
-            "source": "Balochistan (ORG)",
-            "target": "PML (ORG)",
-            "value": 6
-        },
-        {
             "source": "England (GPE)",
             "target": "India (GPE)",
             "value": 189
@@ -898,9 +913,9 @@
             "value": 50
         },
         {
-            "source": "Karachi (ORG)",
-            "target": "PML (ORG)",
-            "value": 5
+            "source": "Kashmir (LOC)",
+            "target": "UN (ORG)",
+            "value": 106
         },
         {
             "source": "Gaza (GPE)",
@@ -913,11 +928,6 @@
             "value": 45
         },
         {
-            "source": "Australia (GPE)",
-            "target": "Japan (GPE)",
-            "value": 11
-        },
-        {
             "source": "Karachi (ORG)",
             "target": "SC (ORG)",
             "value": 70
@@ -928,9 +938,19 @@
             "value": 55
         },
         {
+            "source": "Imran (ORG)",
+            "target": "World Cup (EVENT)",
+            "value": 3
+        },
+        {
             "source": "UK (GPE)",
             "target": "Zardari (PERSON)",
             "value": 1
+        },
+        {
+            "source": "England (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 78
         },
         {
             "source": "China (GPE)",
@@ -941,11 +961,6 @@
             "source": "PML-N (ORG)",
             "target": "SC (ORG)",
             "value": 30
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "Zardari (PERSON)",
-            "value": 2
         },
         {
             "source": "EU (ORG)",
@@ -993,16 +1008,6 @@
             "value": 31
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Obama (PERSON)",
-            "value": 3
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "Zardari (PERSON)",
-            "value": 8
-        },
-        {
             "source": "SC (ORG)",
             "target": "Sindh (GPE)",
             "value": 87
@@ -1016,6 +1021,11 @@
             "source": "New Zealand (GPE)",
             "target": "Sri Lanka (GPE)",
             "value": 37
+        },
+        {
+            "source": "New Zealand (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 51
         },
         {
             "source": "Balochistan (ORG)",
@@ -1038,6 +1048,16 @@
             "value": 38
         },
         {
+            "source": "Iran (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 7
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Zardari (PERSON)",
+            "value": 4
+        },
+        {
             "source": "Afghanistan (GPE)",
             "target": "Zardari (PERSON)",
             "value": 5
@@ -1056,6 +1076,11 @@
             "source": "Iran (GPE)",
             "target": "UN (ORG)",
             "value": 131
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Nato (ORG)",
+            "value": 1
         },
         {
             "source": "Pakistan (GPE)",
@@ -1098,19 +1123,9 @@
             "value": 12
         },
         {
-            "source": "PML (ORG)",
-            "target": "Pakistan (GPE)",
-            "value": 5
-        },
-        {
             "source": "Balochistan (GPE)",
             "target": "SC (ORG)",
             "value": 11
-        },
-        {
-            "source": "China (GPE)",
-            "target": "Japan (GPE)",
-            "value": 63
         },
         {
             "source": "Afghanistan (GPE)",
@@ -1178,6 +1193,11 @@
             "value": 118
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "Taliban (ORG)",
+            "value": 2
+        },
+        {
             "source": "China (GPE)",
             "target": "Obama (PERSON)",
             "value": 15
@@ -1196,11 +1216,6 @@
             "source": "India (GPE)",
             "target": "Israel (GPE)",
             "value": 29
-        },
-        {
-            "source": "Iran (GPE)",
-            "target": "Japan (GPE)",
-            "value": 13
         },
         {
             "source": "Syria (GPE)",
@@ -1243,11 +1258,6 @@
             "value": 88
         },
         {
-            "source": "England (GPE)",
-            "target": "Japan (GPE)",
-            "value": 3
-        },
-        {
             "source": "Karachi (GPE)",
             "target": "Taliban (ORG)",
             "value": 15
@@ -1278,9 +1288,19 @@
             "value": 55
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "PPP (ORG)",
+            "value": 6
+        },
+        {
             "source": "Karachi (ORG)",
             "target": "NA (ORG)",
             "value": 17
+        },
+        {
+            "source": "US (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 15
         },
         {
             "source": "Balochistan (ORG)",
@@ -1321,11 +1341,6 @@
             "source": "India (GPE)",
             "target": "Syria (GPE)",
             "value": 2
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "UN (ORG)",
-            "value": 3
         },
         {
             "source": "Balochistan (ORG)",
@@ -1473,11 +1488,6 @@
             "value": 19
         },
         {
-            "source": "PML (ORG)",
-            "target": "Sindh (GPE)",
-            "value": 13
-        },
-        {
             "source": "KP (GPE)",
             "target": "Taliban (ORG)",
             "value": 8
@@ -1538,11 +1548,6 @@
             "value": 35
         },
         {
-            "source": "Imran (ORG)",
-            "target": "PML (ORG)",
-            "value": 20
-        },
-        {
             "source": "Bangladesh (GPE)",
             "target": "EU (ORG)",
             "value": 3
@@ -1571,11 +1576,6 @@
             "source": "Iraq (GPE)",
             "target": "UK (GPE)",
             "value": 6
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "PTI (ORG)",
-            "value": 109
         },
         {
             "source": "Bangladesh (GPE)",
@@ -1628,11 +1628,6 @@
             "value": 15
         },
         {
-            "source": "PML (ORG)",
-            "target": "SC (ORG)",
-            "value": 18
-        },
-        {
             "source": "PTI (ORG)",
             "target": "SHC (ORG)",
             "value": 25
@@ -1641,6 +1636,11 @@
             "source": "Afghanistan (GPE)",
             "target": "China (GPE)",
             "value": 48
+        },
+        {
+            "source": "Balochistan (ORG)",
+            "target": "Kashmir (LOC)",
+            "value": 4
         },
         {
             "source": "Pakistan (GPE)",
@@ -1653,11 +1653,6 @@
             "value": 7
         },
         {
-            "source": "KP (GPE)",
-            "target": "PML (ORG)",
-            "value": 6
-        },
-        {
             "source": "ECP (ORG)",
             "target": "NA (ORG)",
             "value": 39
@@ -1666,11 +1661,6 @@
             "source": "Balochistan (ORG)",
             "target": "Pakistan (GPE)",
             "value": 23
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "Senate (ORG)",
-            "value": 26
         },
         {
             "source": "Senate (ORG)",
@@ -1768,6 +1758,11 @@
             "value": 2
         },
         {
+            "source": "Afghanistan (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 2
+        },
+        {
             "source": "SC (ORG)",
             "target": "Senate (ORG)",
             "value": 25
@@ -1786,6 +1781,11 @@
             "source": "Australia (GPE)",
             "target": "Saudi Arabia (GPE)",
             "value": 2
+        },
+        {
+            "source": "Saudi Arabia (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 9
         },
         {
             "source": "India (GPE)",
@@ -1833,6 +1833,11 @@
             "value": 1
         },
         {
+            "source": "Imran (ORG)",
+            "target": "Kashmir (LOC)",
+            "value": 9
+        },
+        {
             "source": "Bangladesh (GPE)",
             "target": "Sri Lanka (GPE)",
             "value": 46
@@ -1841,11 +1846,6 @@
             "source": "Karachi (ORG)",
             "target": "SHC (ORG)",
             "value": 28
-        },
-        {
-            "source": "IMF (ORG)",
-            "target": "Japan (GPE)",
-            "value": 3
         },
         {
             "source": "Imran (ORG)",
@@ -1956,11 +1956,6 @@
             "source": "Balochistan (ORG)",
             "target": "Nato (ORG)",
             "value": 1
-        },
-        {
-            "source": "Afghanistan (GPE)",
-            "target": "Japan (GPE)",
-            "value": 2
         },
         {
             "source": "Islamabad (GPE)",
@@ -2078,11 +2073,6 @@
             "value": 31
         },
         {
-            "source": "PML (ORG)",
-            "target": "PML-N (ORG)",
-            "value": 10
-        },
-        {
             "source": "SC (ORG)",
             "target": "Taliban (ORG)",
             "value": 3
@@ -2178,6 +2168,11 @@
             "value": 18
         },
         {
+            "source": "Iraq (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 2
+        },
+        {
             "source": "Islamabad (GPE)",
             "target": "PTI (ORG)",
             "value": 152
@@ -2186,11 +2181,6 @@
             "source": "Senate (ORG)",
             "target": "Zardari (PERSON)",
             "value": 9
-        },
-        {
-            "source": "Karachi (GPE)",
-            "target": "PML (ORG)",
-            "value": 5
         },
         {
             "source": "ECP (ORG)",
@@ -2253,11 +2243,6 @@
             "value": 5
         },
         {
-            "source": "ECP (ORG)",
-            "target": "PML (ORG)",
-            "value": 11
-        },
-        {
             "source": "PPP (ORG)",
             "target": "SHC (ORG)",
             "value": 2
@@ -2318,6 +2303,11 @@
             "value": 81
         },
         {
+            "source": "PTI (ORG)",
+            "target": "World Cup (EVENT)",
+            "value": 1
+        },
+        {
             "source": "Imran (ORG)",
             "target": "NA (ORG)",
             "value": 20
@@ -2328,19 +2318,9 @@
             "value": 1
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Turkey (GPE)",
-            "value": 1
-        },
-        {
             "source": "Lahore (GPE)",
             "target": "PML-N (ORG)",
             "value": 15
-        },
-        {
-            "source": "Lahore (GPE)",
-            "target": "PML (ORG)",
-            "value": 10
         },
         {
             "source": "ECP (ORG)",
@@ -2423,11 +2403,6 @@
             "value": 22
         },
         {
-            "source": "PML (ORG)",
-            "target": "US (GPE)",
-            "value": 2
-        },
-        {
             "source": "Syria (GPE)",
             "target": "Taliban (ORG)",
             "value": 2
@@ -2436,11 +2411,6 @@
             "source": "Balochistan (GPE)",
             "target": "Senate (ORG)",
             "value": 13
-        },
-        {
-            "source": "Balochistan (GPE)",
-            "target": "PML (ORG)",
-            "value": 1
         },
         {
             "source": "Saudi Arabia (GPE)",
@@ -2523,14 +2493,14 @@
             "value": 1
         },
         {
+            "source": "Afghanistan (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 29
+        },
+        {
             "source": "India (GPE)",
             "target": "Karachi (GPE)",
             "value": 4
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "Taliban (ORG)",
-            "value": 1
         },
         {
             "source": "KP (GPE)",
@@ -2541,6 +2511,11 @@
             "source": "India (GPE)",
             "target": "PML-N (ORG)",
             "value": 3
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "PML-N (ORG)",
+            "value": 5
         },
         {
             "source": "Balochistan (GPE)",
@@ -2718,6 +2693,11 @@
             "value": 3
         },
         {
+            "source": "Karachi (ORG)",
+            "target": "World Cup (EVENT)",
+            "value": 1
+        },
+        {
             "source": "Iraq (GPE)",
             "target": "Nato (ORG)",
             "value": 3
@@ -2731,6 +2711,11 @@
             "source": "PPP (ORG)",
             "target": "US (GPE)",
             "value": 9
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 3
         },
         {
             "source": "Afghanistan (GPE)",
@@ -2763,9 +2748,9 @@
             "value": 20
         },
         {
-            "source": "Islamabad (GPE)",
-            "target": "PML (ORG)",
-            "value": 8
+            "source": "UK (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 2
         },
         {
             "source": "IHC (ORG)",
@@ -2803,6 +2788,11 @@
             "value": 47
         },
         {
+            "source": "Islamabad (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 8
+        },
+        {
             "source": "Australia (GPE)",
             "target": "Iraq (GPE)",
             "value": 2
@@ -2811,6 +2801,11 @@
             "source": "Islamabad (GPE)",
             "target": "Sindh (GPE)",
             "value": 11
+        },
+        {
+            "source": "PCB (ORG)",
+            "target": "World Cup (EVENT)",
+            "value": 26
         },
         {
             "source": "Israel (GPE)",
@@ -2868,6 +2863,16 @@
             "value": 3
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "NA (ORG)",
+            "value": 7
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Senate (ORG)",
+            "value": 5
+        },
+        {
             "source": "China (GPE)",
             "target": "PTI (ORG)",
             "value": 2
@@ -2886,16 +2891,6 @@
             "source": "NAB (ORG)",
             "target": "UN (ORG)",
             "value": 1
-        },
-        {
-            "source": "Iraq (GPE)",
-            "target": "Japan (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "Syria (GPE)",
-            "value": 3
         },
         {
             "source": "PTI (ORG)",
@@ -3003,11 +2998,6 @@
             "value": 6
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Ukraine (GPE)",
-            "value": 5
-        },
-        {
             "source": "EU (ORG)",
             "target": "PTI (ORG)",
             "value": 4
@@ -3041,6 +3031,11 @@
             "source": "IHC (ORG)",
             "target": "NAB (ORG)",
             "value": 50
+        },
+        {
+            "source": "China (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 4
         },
         {
             "source": "Trump (ORG)",
@@ -3158,6 +3153,11 @@
             "value": 2
         },
         {
+            "source": "EU (ORG)",
+            "target": "Kashmir (LOC)",
+            "value": 9
+        },
+        {
             "source": "India (GPE)",
             "target": "Trump (ORG)",
             "value": 70
@@ -3213,6 +3213,11 @@
             "value": 4
         },
         {
+            "source": "Balochistan (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 3
+        },
+        {
             "source": "NA (ORG)",
             "target": "PCB (ORG)",
             "value": 4
@@ -3223,9 +3228,19 @@
             "value": 2
         },
         {
+            "source": "China (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 12
+        },
+        {
             "source": "Karachi (GPE)",
             "target": "Nato (ORG)",
             "value": 1
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "PTI (ORG)",
+            "value": 4
         },
         {
             "source": "Karachi (GPE)",
@@ -3236,6 +3251,11 @@
             "source": "PML-N (ORG)",
             "target": "UK (GPE)",
             "value": 3
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Turkey (GPE)",
+            "value": 5
         },
         {
             "source": "Syria (GPE)",
@@ -3286,6 +3306,11 @@
             "source": "China (GPE)",
             "target": "Trump (ORG)",
             "value": 91
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Trump (ORG)",
+            "value": 17
         },
         {
             "source": "Nato (ORG)",
@@ -3378,6 +3403,11 @@
             "value": 9
         },
         {
+            "source": "Karachi (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 1
+        },
+        {
             "source": "Imran (ORG)",
             "target": "Turkey (GPE)",
             "value": 2
@@ -3393,19 +3423,19 @@
             "value": 2
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Saudi Arabia (GPE)",
-            "value": 3
-        },
-        {
             "source": "PCB (ORG)",
             "target": "UK (GPE)",
             "value": 5
         },
         {
-            "source": "EU (ORG)",
-            "target": "Japan (GPE)",
+            "source": "Kashmir (LOC)",
+            "target": "SC (ORG)",
             "value": 4
+        },
+        {
+            "source": "Iran (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 3
         },
         {
             "source": "Iraq (GPE)",
@@ -3478,6 +3508,11 @@
             "value": 3
         },
         {
+            "source": "Syria (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 5
+        },
+        {
             "source": "Lahore (GPE)",
             "target": "Sri Lanka (GPE)",
             "value": 8
@@ -3533,19 +3568,9 @@
             "value": 1
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Nato (ORG)",
-            "value": 1
-        },
-        {
             "source": "PPP (ORG)",
             "target": "UN (ORG)",
             "value": 1
-        },
-        {
-            "source": "NAB (ORG)",
-            "target": "PML (ORG)",
-            "value": 11
         },
         {
             "source": "Balochistan (GPE)",
@@ -3561,11 +3586,6 @@
             "source": "Sindh (GPE)",
             "target": "Trump (ORG)",
             "value": 1
-        },
-        {
-            "source": "IHC (ORG)",
-            "target": "PML (ORG)",
-            "value": 3
         },
         {
             "source": "China (GPE)",
@@ -3608,6 +3628,11 @@
             "value": 8
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "UK (GPE)",
+            "value": 9
+        },
+        {
             "source": "Balochistan (ORG)",
             "target": "UK (GPE)",
             "value": 2
@@ -3618,9 +3643,9 @@
             "value": 1
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Trump (ORG)",
-            "value": 5
+            "source": "Trump (ORG)",
+            "target": "World Cup (EVENT)",
+            "value": 6
         },
         {
             "source": "India (GPE)",
@@ -3728,11 +3753,6 @@
             "value": 1
         },
         {
-            "source": "Islamabad (GPE)",
-            "target": "Japan (GPE)",
-            "value": 1
-        },
-        {
             "source": "Australia (GPE)",
             "target": "Israel (GPE)",
             "value": 5
@@ -3808,9 +3828,24 @@
             "value": 10
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "Sindh (GPE)",
+            "value": 3
+        },
+        {
             "source": "Balochistan (GPE)",
             "target": "PCB (ORG)",
             "value": 1
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Russia (GPE)",
+            "value": 1
+        },
+        {
+            "source": "Gaza (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 4
         },
         {
             "source": "Imran (ORG)",
@@ -3823,6 +3858,11 @@
             "value": 29
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "New Zealand (GPE)",
+            "value": 1
+        },
+        {
             "source": "Karachi (GPE)",
             "target": "Sri Lanka (GPE)",
             "value": 3
@@ -3831,6 +3871,11 @@
             "source": "Islamabad (GPE)",
             "target": "Sri Lanka (GPE)",
             "value": 1
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Saudi Arabia (GPE)",
+            "value": 4
         },
         {
             "source": "Iran (GPE)",
@@ -3846,11 +3891,6 @@
             "source": "Bangladesh (GPE)",
             "target": "Lahore (GPE)",
             "value": 2
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "UK (GPE)",
-            "value": 1
         },
         {
             "source": "NA (ORG)",
@@ -3913,6 +3953,11 @@
             "value": 3
         },
         {
+            "source": "Israel (GPE)",
+            "target": "Kashmir (LOC)",
+            "value": 1
+        },
+        {
             "source": "Balochistan (GPE)",
             "target": "PPP (ORG)",
             "value": 8
@@ -3953,6 +3998,11 @@
             "value": 3
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "PCB (ORG)",
+            "value": 1
+        },
+        {
             "source": "Afghanistan (GPE)",
             "target": "Imran (ORG)",
             "value": 2
@@ -3961,11 +4011,6 @@
             "source": "Australia (GPE)",
             "target": "Taliban (ORG)",
             "value": 2
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "Taliban (ORG)",
-            "value": 1
         },
         {
             "source": "New Zealand (GPE)",
@@ -4063,6 +4108,11 @@
             "value": 1
         },
         {
+            "source": "Lahore (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 2
+        },
+        {
             "source": "Sri Lanka (GPE)",
             "target": "Syria (GPE)",
             "value": 1
@@ -4093,14 +4143,19 @@
             "value": 1
         },
         {
-            "source": "Balochistan (ORG)",
-            "target": "Imran (ORG)",
+            "source": "Ukraine (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 2
+        },
+        {
+            "source": "Kashmir (LOC)",
+            "target": "Ukraine (GPE)",
             "value": 1
         },
         {
-            "source": "Japan (GPE)",
-            "target": "UK (GPE)",
-            "value": 3
+            "source": "Balochistan (ORG)",
+            "target": "Imran (ORG)",
+            "value": 1
         },
         {
             "source": "IHC (ORG)",
@@ -4188,6 +4243,11 @@
             "value": 1
         },
         {
+            "source": "Kashmir (LOC)",
+            "target": "World Cup (EVENT)",
+            "value": 1
+        },
+        {
             "source": "China (GPE)",
             "target": "Gaza (GPE)",
             "value": 3
@@ -4218,13 +4278,18 @@
             "value": 1
         },
         {
-            "source": "Japan (GPE)",
-            "target": "Sindh (GPE)",
+            "source": "Islamabad (GPE)",
+            "target": "World Cup (EVENT)",
             "value": 1
         },
         {
             "source": "Israel (GPE)",
             "target": "Lahore (GPE)",
+            "value": 1
+        },
+        {
+            "source": "IHC (ORG)",
+            "target": "Kashmir (LOC)",
             "value": 1
         },
         {
@@ -4253,16 +4318,6 @@
             "value": 3
         },
         {
-            "source": "Bangladesh (GPE)",
-            "target": "Japan (GPE)",
-            "value": 1
-        },
-        {
-            "source": "Japan (GPE)",
-            "target": "KP (GPE)",
-            "value": 1
-        },
-        {
             "source": "Afghanistan (GPE)",
             "target": "Senate (ORG)",
             "value": 1
@@ -4271,16 +4326,6 @@
             "source": "Saudi Arabia (GPE)",
             "target": "Ukraine (GPE)",
             "value": 4
-        },
-        {
-            "source": "Bangladesh (GPE)",
-            "target": "PML (ORG)",
-            "value": 1
-        },
-        {
-            "source": "PML (ORG)",
-            "target": "Trump (ORG)",
-            "value": 1
         },
         {
             "source": "Iraq (GPE)",
@@ -4293,9 +4338,9 @@
             "value": 1
         },
         {
-            "source": "Balochistan (ORG)",
-            "target": "Japan (GPE)",
-            "value": 1
+            "source": "Israel (GPE)",
+            "target": "World Cup (EVENT)",
+            "value": 3
         },
         {
             "source": "Senate (ORG)",
