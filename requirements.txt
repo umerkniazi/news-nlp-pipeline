@@ -13,3 +13,5 @@ tqdm
 pyvis
 bertopic
 sentence-transformers
+hdbscan
+umap-learn
