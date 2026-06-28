@@ -6,11 +6,12 @@ import numpy as np
 import pandas as pd
 from bertopic import BERTopic
 from sentence_transformers import SentenceTransformer
+from sklearn.cluster import MiniBatchKMeans
 from sklearn.feature_extraction.text import CountVectorizer
 from umap import UMAP
-from hdbscan import HDBSCAN
 
 from src.config import (
+    NUM_TOPICS,
     RANDOM_SEED,
     LDA_MODEL_FILE,
     TOPIC_MAPPING_FILE,
@@ -20,7 +21,8 @@ BERTOPIC_MODEL_FILE = LDA_MODEL_FILE.parent / "bertopic_model"
 
 
 class TopicModeler:
-    def __init__(self):
+    def __init__(self, num_topics: int = NUM_TOPICS):
+        self.num_topics = num_topics
         self.model = None
         self.embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
@@ -33,16 +35,17 @@ class TopicModeler:
 
         umap_model = UMAP(
             n_neighbors=10,
-            n_components=5,
+            n_components=3,
             min_dist=0.0,
             metric="cosine",
             random_state=RANDOM_SEED,
         )
 
-        cluster_model = HDBSCAN(
-            min_cluster_size=50,
-            metric="euclidean",
-            cluster_selection_method="eom",
+        cluster_model = MiniBatchKMeans(
+            n_clusters=self.num_topics,
+            batch_size=1024,
+            random_state=RANDOM_SEED,
+            n_init="auto",
         )
 
         self.model = BERTopic(
@@ -60,7 +63,7 @@ class TopicModeler:
         embeddings = self.embedding_model.encode(
             texts,
             show_progress_bar=True,
-            batch_size=32,
+            batch_size=16,
         ).astype(np.float32)
 
         print("Fitting BERTopic...")
