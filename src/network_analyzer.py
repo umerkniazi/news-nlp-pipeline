@@ -16,7 +16,7 @@ class NetworkAnalyzer:
         
         edges = []
         for entities in df[entity_column].dropna():
-            filtered = list(set([e for e in entities if e in top_entities]))
+            filtered = [e for e in entities if e in top_entities]
             if len(filtered) > 1:
                 edges.extend(list(combinations(sorted(filtered), 2)))
         
