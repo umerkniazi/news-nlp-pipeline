@@ -4,7 +4,7 @@
             "id": "Pakistan (GPE)",
             "name": "Pakistan",
             "group": "GPE",
-            "value": 25969
+            "value": 25973
         },
         {
             "id": "US (GPE)",
@@ -103,6 +103,12 @@
             "value": 2261
         },
         {
+            "id": "Imran (PERSON)",
+            "name": "Imran",
+            "group": "PERSON",
+            "value": 2182
+        },
+        {
             "id": "Israel (GPE)",
             "name": "Israel",
             "group": "GPE",
@@ -137,12 +143,6 @@
             "name": "Russia",
             "group": "GPE",
             "value": 2104
-        },
-        {
-            "id": "Imran (ORG)",
-            "name": "Imran",
-            "group": "ORG",
-            "value": 2101
         },
         {
             "id": "ECP (ORG)",
@@ -393,14 +393,14 @@
             "value": 517
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "PCB (ORG)",
-            "value": 2
+            "value": 4
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Pakistan (GPE)",
-            "value": 63
+            "value": 65
         },
         {
             "source": "PCB (ORG)",
@@ -938,7 +938,7 @@
             "value": 55
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "World Cup (EVENT)",
             "value": 3
         },
@@ -1393,7 +1393,7 @@
             "value": 23
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "India (GPE)",
             "value": 17
         },
@@ -1553,9 +1553,9 @@
             "value": 3
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "PML-N (ORG)",
-            "value": 33
+            "value": 35
         },
         {
             "source": "NA (ORG)",
@@ -1623,9 +1623,9 @@
             "value": 57
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Karachi (ORG)",
-            "value": 15
+            "value": 16
         },
         {
             "source": "PTI (ORG)",
@@ -1698,12 +1698,12 @@
             "value": 4
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "PTI (ORG)",
-            "value": 278
+            "value": 286
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Zardari (PERSON)",
             "value": 23
         },
@@ -1833,9 +1833,9 @@
             "value": 1
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Kashmir (LOC)",
-            "value": 9
+            "value": 10
         },
         {
             "source": "Bangladesh (GPE)",
@@ -1848,9 +1848,9 @@
             "value": 28
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "PPP (ORG)",
-            "value": 26
+            "value": 27
         },
         {
             "source": "PPP (ORG)",
@@ -2033,7 +2033,7 @@
             "value": 21
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Taliban (ORG)",
             "value": 6
         },
@@ -2053,7 +2053,7 @@
             "value": 14
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "UN (ORG)",
             "value": 10
         },
@@ -2308,13 +2308,13 @@
             "value": 1
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "NA (ORG)",
             "value": 20
         },
         {
             "source": "Balochistan (GPE)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 1
         },
         {
@@ -2324,8 +2324,8 @@
         },
         {
             "source": "ECP (ORG)",
-            "target": "Imran (ORG)",
-            "value": 86
+            "target": "Imran (PERSON)",
+            "value": 88
         },
         {
             "source": "Islamabad (GPE)",
@@ -2348,7 +2348,7 @@
             "value": 4
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Karachi (GPE)",
             "value": 5
         },
@@ -2368,9 +2368,9 @@
             "value": 8
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "KP (GPE)",
-            "value": 44
+            "value": 47
         },
         {
             "source": "Balochistan (ORG)",
@@ -2433,9 +2433,9 @@
             "value": 15
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "SC (ORG)",
-            "value": 87
+            "value": 93
         },
         {
             "source": "Senate (ORG)",
@@ -2473,7 +2473,7 @@
             "value": 12
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Obama (PERSON)",
             "value": 1
         },
@@ -2538,7 +2538,7 @@
             "value": 4
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Nato (ORG)",
             "value": 1
         },
@@ -2583,7 +2583,7 @@
             "value": 4
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Sindh (GPE)",
             "value": 7
         },
@@ -2613,7 +2613,7 @@
             "value": 6
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Senate (ORG)",
             "value": 11
         },
@@ -2793,6 +2793,11 @@
             "value": 8
         },
         {
+            "source": "Imran (PERSON)",
+            "target": "Islamabad (GPE)",
+            "value": 56
+        },
+        {
             "source": "Australia (GPE)",
             "target": "Iraq (GPE)",
             "value": 2
@@ -2828,7 +2833,7 @@
             "value": 8
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "US (GPE)",
             "value": 33
         },
@@ -2843,12 +2848,7 @@
             "value": 3
         },
         {
-            "source": "Imran (ORG)",
-            "target": "Islamabad (GPE)",
-            "value": 55
-        },
-        {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Lahore (GPE)",
             "value": 5
         },
@@ -2933,9 +2933,9 @@
             "value": 15
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "NAB (ORG)",
-            "value": 27
+            "value": 29
         },
         {
             "source": "ECP (ORG)",
@@ -3408,7 +3408,7 @@
             "value": 1
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Turkey (GPE)",
             "value": 2
         },
@@ -3468,7 +3468,7 @@
             "value": 3
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Saudi Arabia (GPE)",
             "value": 2
         },
@@ -3544,7 +3544,7 @@
         },
         {
             "source": "IHC (ORG)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 121
         },
         {
@@ -3688,13 +3688,13 @@
             "value": 5
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "UK (GPE)",
-            "value": 6
+            "value": 7
         },
         {
             "source": "EU (ORG)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 3
         },
         {
@@ -3708,7 +3708,7 @@
             "value": 1
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Iran (GPE)",
             "value": 3
         },
@@ -3744,7 +3744,7 @@
         },
         {
             "source": "China (GPE)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 1
         },
         {
@@ -3848,7 +3848,7 @@
             "value": 4
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Trump (ORG)",
             "value": 5
         },
@@ -3924,7 +3924,7 @@
         },
         {
             "source": "Bangladesh (GPE)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 1
         },
         {
@@ -4004,7 +4004,7 @@
         },
         {
             "source": "Afghanistan (GPE)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 2
         },
         {
@@ -4063,7 +4063,7 @@
             "value": 17
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "Ukraine (GPE)",
             "value": 1
         },
@@ -4088,6 +4088,11 @@
             "value": 1
         },
         {
+            "source": "IMF (ORG)",
+            "target": "Imran (PERSON)",
+            "value": 5
+        },
+        {
             "source": "ECP (ORG)",
             "target": "NAB (ORG)",
             "value": 1
@@ -4103,7 +4108,7 @@
             "value": 1
         },
         {
-            "source": "Imran (ORG)",
+            "source": "Imran (PERSON)",
             "target": "SHC (ORG)",
             "value": 1
         },
@@ -4154,7 +4159,7 @@
         },
         {
             "source": "Balochistan (ORG)",
-            "target": "Imran (ORG)",
+            "target": "Imran (PERSON)",
             "value": 1
         },
         {
@@ -4171,11 +4176,6 @@
             "source": "NA (ORG)",
             "target": "SHC (ORG)",
             "value": 2
-        },
-        {
-            "source": "IMF (ORG)",
-            "target": "Imran (ORG)",
-            "value": 4
         },
         {
             "source": "Islamabad (GPE)",
