@@ -435,7 +435,7 @@ with tab5:
             st.dataframe(t_ent_df, use_container_width=True, hide_index=True)
 
         st.markdown("##### Sample Headlines")
-        sample_headlines = t_df[['date', 'headline', 'sentiment_label', 'sentiment_score', 'extracted_entities']].head(10).copy()
+        sample_headlines = t_df[['date', 'headline', 'sentiment_label', 'sentiment_score', 'extracted_entities']].sample(min(10, len(t_df)), random_state=42).copy()
         sample_headlines['extracted_entities'] = sample_headlines['extracted_entities'].apply(format_entities_display)
         sample_headlines.columns = ['Date', 'Headline', 'Sentiment Label', 'Score', 'Extracted Entities']
         st.dataframe(sample_headlines, use_container_width=True, hide_index=True)
