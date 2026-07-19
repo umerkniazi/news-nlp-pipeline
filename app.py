@@ -11,7 +11,7 @@ import datetime
 
 from utils.chart_style import apply_chart_style, SENTIMENT_COLORS
 
-st.set_page_config(page_title="NLP News Pipeline | Dawn Analytics", page_icon="📰", layout="wide")
+st.set_page_config(page_title="News NLP Pipeline | Dawn Analytics", page_icon="📰", layout="wide")
 
 
 @st.cache_data
@@ -187,7 +187,7 @@ def format_entities_display(entities_list):
     return ", ".join(clean_list)
 
 
-with st.spinner("Loading NLP News Pipeline dashboard..."):
+with st.spinner("Loading News NLP Pipeline dashboard..."):
     df = load_data()
 
 st.sidebar.header("Dashboard Filters")
@@ -237,7 +237,7 @@ filtered_df = df[mask]
 is_filtered = (preset != "Full Dataset") or bool(topic_filter) or bool(sentiment_filter) or bool(search_query)
 
 st.title("Dawn News NLP Analytics")
-st.markdown("**Part of the NLP News Pipeline project**")
+st.markdown("**Part of the News NLP Pipeline project**")
 st.markdown("An end-to-end NLP system for analyzing Dawn News articles using sentiment analysis, named entity recognition, and topic modeling.")
 
 if filtered_df.empty:
@@ -491,4 +491,4 @@ with st.expander("Methodology"):
     * **Entity Co-occurrence Network**: Graph-based analysis of entities frequently appearing in the same context.
     """)
 
-st.caption("NLP News Pipeline | Built with Python, Streamlit, Transformers, NER, and BERTopic")
+st.caption("News NLP Pipeline | Built with Python, Streamlit, Transformers, NER, and BERTopic")
